@@ -1,0 +1,87 @@
+# =========================
+# ROS2 Workspace
+# =========================
+build/
+install/
+log/
+
+# Colcon & cache
+.colcon/
+.colcon_install_layout
+.colcon_build/
+
+# =========================
+# Python
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# VSCode / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temp
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# Build / CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# ROS bag & data (opsional)
+# =========================
+*.bag
+*.db3
+
+# =========================
+# NVIDIA / CUDA (Jetson / NUC GPU)
+# =========================
+*.engine
+*.plan
+
+# =========================
+# Secrets / Config lokal
+# =========================
+.env
+*.env
+config/local.yaml
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar
+*.gz
+
