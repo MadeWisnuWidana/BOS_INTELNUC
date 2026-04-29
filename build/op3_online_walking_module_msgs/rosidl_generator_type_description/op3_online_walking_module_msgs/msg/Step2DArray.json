@@ -1,0 +1,105 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_online_walking_module_msgs/msg/Step2DArray",
+      "fields": [
+        {
+          "name": "step_time",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "footsteps_2d",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "op3_online_walking_module_msgs/msg/Step2D"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "geometry_msgs/msg/Pose2D",
+        "fields": [
+          {
+            "name": "x",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "y",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "theta",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "op3_online_walking_module_msgs/msg/Step2D",
+        "fields": [
+          {
+            "name": "step2d",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "geometry_msgs/msg/Pose2D"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "moving_foot",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_online_walking_module_msgs/msg/Step2DArray",
+      "hash_string": "RIHS01_998ee202053c713475f1e59eb86aa64fc74a2d305587d3c42f3dbf476234b2d9"
+    },
+    {
+      "type_name": "geometry_msgs/msg/Pose2D",
+      "hash_string": "RIHS01_d68efa5b46e70f7b16ca23085474fdac5a44b638783ec42f661da64da4724ccc"
+    },
+    {
+      "type_name": "op3_online_walking_module_msgs/msg/Step2D",
+      "hash_string": "RIHS01_1da4396bfc73ce8711e7af2e5c0af7a1e2ae20c6cce21375427f979ee396c0dd"
+    }
+  ]
+}

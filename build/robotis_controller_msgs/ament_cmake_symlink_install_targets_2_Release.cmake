@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brone-ub/brone_main_ws/build/robotis_controller_msgs/rosidl_generator_py/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_c.so" "TARGETS" "robotis_controller_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/robotis_controller_msgs")

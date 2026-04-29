@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3/op3_kinematics_dynamics/include/op3_kinematics_dynamics/link_data.h

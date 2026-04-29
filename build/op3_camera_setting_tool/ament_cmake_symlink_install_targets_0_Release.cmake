@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brone-ub/brone_main_ws/build/op3_camera_setting_tool/op3_camera_setting_tool" "TARGETS" "op3_camera_setting_tool" "DESTINATION" "lib/op3_camera_setting_tool")

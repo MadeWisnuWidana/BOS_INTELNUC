@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotis_controller_msgs/srv/LoadOffset_Request",
+      "fields": [
+        {
+          "name": "file_path",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotis_controller_msgs/srv/LoadOffset_Request",
+      "hash_string": "RIHS01_9f6038d411aaa727cdbe42069d1c3811478c5007bbe5f854e83782b6a544cda5"
+    }
+  ]
+}

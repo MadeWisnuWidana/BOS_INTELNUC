@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found usb_cam: 0.8.2 (/home/brone-ub/robotis_ws/install/usb_cam/share/usb_cam/cmake)
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found op3_camera_setting_tool_msgs: 0.1.0 (/home/brone-ub/brone_main_ws/install/op3_camera_setting_tool_msgs/share/op3_camera_setting_tool_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.8.0
+-- Configuring done (2.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_camera_setting_tool
+[ 50%] [32mBuilding CXX object CMakeFiles/op3_camera_setting_tool.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable op3_camera_setting_tool[0m
+[100%] Built target op3_camera_setting_tool
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/lib/op3_camera_setting_tool/op3_camera_setting_tool
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/include/op3_camera_setting_tool/camera_params_config.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/include/op3_camera_setting_tool/op3_camera_setting_tool.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/config/camera_parameter.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/config/camera_parameter_default.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/launch/op3_camera_setting_tool.launch.xml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/ament_index/resource_index/package_run_dependencies/op3_camera_setting_tool
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/ament_index/resource_index/parent_prefix_path/op3_camera_setting_tool
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/environment/ament_prefix_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/environment/ament_prefix_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/environment/path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/environment/path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/local_setup.bash
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/local_setup.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/local_setup.zsh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/local_setup.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/package.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/ament_index/resource_index/packages/op3_camera_setting_tool
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/cmake/op3_camera_setting_toolConfig.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/cmake/op3_camera_setting_toolConfig-version.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_camera_setting_tool/share/op3_camera_setting_tool/package.xml

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brone-ub/brone_main_ws/build/op3_kinematics_dynamics/libop3_kinematics_dynamics.so" "TARGETS" "op3_kinematics_dynamics" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

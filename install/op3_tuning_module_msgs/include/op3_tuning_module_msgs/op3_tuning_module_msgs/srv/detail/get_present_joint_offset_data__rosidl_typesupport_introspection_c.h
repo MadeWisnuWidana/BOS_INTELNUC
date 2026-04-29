@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_tuning_module_msgs/rosidl_typesupport_introspection_c/op3_tuning_module_msgs/srv/detail/get_present_joint_offset_data__rosidl_typesupport_introspection_c.h

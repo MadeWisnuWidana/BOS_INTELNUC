@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/src/brone_core/scripts/state_machine_node.py

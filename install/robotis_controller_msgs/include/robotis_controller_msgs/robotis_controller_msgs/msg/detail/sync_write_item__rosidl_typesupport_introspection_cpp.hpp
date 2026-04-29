@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/robotis_controller_msgs/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_tuning_module_msgs/msg/JointTorqueOnOff",
+      "fields": [
+        {
+          "name": "joint_name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "torque_enable",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_tuning_module_msgs/msg/JointTorqueOnOff",
+      "hash_string": "RIHS01_4cd1005614bf4182ab6c49cd387cc410ab00f85973cf4d0767340350a8dfe7a2"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+source;share/brone_core/local_setup.bash
+source;share/brone_core/local_setup.dsv
+source;share/brone_core/local_setup.sh
+source;share/brone_core/local_setup.zsh

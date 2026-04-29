@@ -1,0 +1,44 @@
+[0.050s] Invoking command in '/home/brone-ub/brone_main_ws/build/brone_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/brone_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/brone_core
+[2.588s] -- The C compiler identification is GNU 13.3.0
+[2.588s] -- The CXX compiler identification is GNU 13.3.0
+[2.588s] -- Detecting C compiler ABI info
+[2.588s] -- Detecting C compiler ABI info - done
+[2.589s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.589s] -- Detecting C compile features
+[2.589s] -- Detecting C compile features - done
+[2.589s] -- Detecting CXX compiler ABI info
+[2.589s] -- Detecting CXX compiler ABI info - done
+[2.589s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.589s] -- Detecting CXX compile features
+[2.589s] -- Detecting CXX compile features - done
+[2.589s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.589s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.589s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.589s] -- Added test 'lint_cmake' to check CMake code style
+[2.589s] -- Added test 'xmllint' to check XML markup files
+[2.589s] -- Configuring done (1.7s)
+[2.589s] -- Generating done (0.0s)
+[2.589s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/brone_core
+[2.601s] Invoked command in '/home/brone-ub/brone_main_ws/build/brone_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/brone_core -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/brone_core
+[2.601s] Invoking command in '/home/brone-ub/brone_main_ws/build/brone_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/brone_core -- -j16 -l16
+[7.366s] Invoked command in '/home/brone-ub/brone_main_ws/build/brone_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/brone_core -- -j16 -l16
+[7.367s] Invoking command in '/home/brone-ub/brone_main_ws/build/brone_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/brone_core
+[8.145s] -- Install configuration: "Release"
+[8.148s] -- Execute custom install script
+[8.148s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/package_run_dependencies/brone_core
+[8.148s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/parent_prefix_path/brone_core
+[8.148s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.sh
+[8.148s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.dsv
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/path.sh
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/path.dsv
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.bash
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.sh
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.zsh
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.dsv
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/package.dsv
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/packages/brone_core
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/cmake/brone_coreConfig.cmake
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/cmake/brone_coreConfig-version.cmake
+[8.149s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/package.xml
+[8.217s] Invoked command in '/home/brone-ub/brone_main_ws/build/brone_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/brone_core

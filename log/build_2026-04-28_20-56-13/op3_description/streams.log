@@ -1,0 +1,79 @@
+[0.039s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Common/op3_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_description
+[2.588s] -- The C compiler identification is GNU 13.3.0
+[2.588s] -- The CXX compiler identification is GNU 13.3.0
+[2.588s] -- Detecting C compiler ABI info
+[2.588s] -- Detecting C compiler ABI info - done
+[2.588s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.588s] -- Detecting C compile features
+[2.588s] -- Detecting C compile features - done
+[2.588s] -- Detecting CXX compiler ABI info
+[2.588s] -- Detecting CXX compiler ABI info - done
+[2.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.588s] -- Detecting CXX compile features
+[2.589s] -- Detecting CXX compile features - done
+[2.589s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.589s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.589s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.589s] -- Configuring done (1.7s)
+[2.589s] -- Generating done (0.0s)
+[2.589s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_description
+[2.603s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Common/op3_description -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_description
+[2.604s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_description -- -j16 -l16
+[7.300s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_description -- -j16 -l16
+[7.300s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_description
+[7.379s] -- Install configuration: "Release"
+[7.379s] -- Execute custom install script
+[7.379s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/ament_index/resource_index/package_run_dependencies/op3_description
+[7.379s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/ament_index/resource_index/parent_prefix_path/op3_description
+[7.382s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/environment/ament_prefix_path.sh
+[7.441s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/environment/ament_prefix_path.dsv
+[7.475s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/environment/path.sh
+[7.511s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/environment/path.dsv
+[7.548s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/local_setup.bash
+[7.569s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/local_setup.sh
+[7.589s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/local_setup.zsh
+[7.610s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/local_setup.dsv
+[7.628s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/package.dsv
+[7.667s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/ament_index/resource_index/packages/op3_description
+[7.696s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/cmake/op3_descriptionConfig.cmake
+[7.731s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/cmake/op3_descriptionConfig-version.cmake
+[7.774s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/package.xml
+[7.815s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/doc/OP3 mass property.docx
+[7.844s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/doc/op3_sim.docx
+[7.877s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/doc/op3_sim.ods
+[7.912s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/launch/op3_display.launch.py
+[7.945s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/base.stl
+[8.097s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/body.stl
+[8.126s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/h1.stl
+[8.167s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/h2.stl
+[8.193s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/la1.stl
+[8.231s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/la2.stl
+[8.267s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/la3.stl
+[8.304s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ll1.stl
+[8.332s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ll2.stl
+[8.350s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ll3.stl
+[8.390s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ll4.stl
+[8.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ll5.stl
+[8.463s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ll6.stl
+[8.506s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ra1.stl
+[8.532s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ra2.stl
+[8.552s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/ra3.stl
+[8.598s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/rl1.stl
+[8.631s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/rl2.stl
+[8.667s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/rl3.stl
+[8.695s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/rl4.stl
+[8.731s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/rl5.stl
+[8.763s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/meshes/rl6.stl
+[8.800s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/rviz/op3.rviz
+[8.838s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/gazebo_harness.xacro
+[8.861s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.gazebo.xacro
+[8.900s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.inertia.xacro
+[8.924s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.structure.head.xacro
+[8.952s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.structure.larm.xacro
+[8.967s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.structure.lleg.xacro
+[8.982s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.structure.rarm.xacro
+[9.015s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.structure.rleg.xacro
+[9.050s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.transmissions.xacro
+[9.080s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.urdf.xacro
+[9.107s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_description/share/op3_description/urdf/robotis_op3.visuals.xacro
+[9.144s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_description

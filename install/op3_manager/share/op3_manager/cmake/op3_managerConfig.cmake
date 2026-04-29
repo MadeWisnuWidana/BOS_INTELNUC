@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_manager/ament_cmake_core/op3_managerConfig.cmake

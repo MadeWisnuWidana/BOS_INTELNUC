@@ -1,0 +1,49 @@
+[0.040s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_web_setting_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_web_setting_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_web_setting_tool
+[2.581s] -- The C compiler identification is GNU 13.3.0
+[2.581s] -- The CXX compiler identification is GNU 13.3.0
+[2.581s] -- Detecting C compiler ABI info
+[2.581s] -- Detecting C compiler ABI info - done
+[2.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.581s] -- Detecting C compile features
+[2.581s] -- Detecting C compile features - done
+[2.581s] -- Detecting CXX compiler ABI info
+[2.581s] -- Detecting CXX compiler ABI info - done
+[2.581s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.581s] -- Detecting CXX compile features
+[2.581s] -- Detecting CXX compile features - done
+[2.582s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.582s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.582s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.582s] -- Configuring done (1.6s)
+[2.582s] -- Generating done (0.0s)
+[2.582s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_web_setting_tool
+[2.609s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_web_setting_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_web_setting_tool -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_web_setting_tool
+[2.610s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_web_setting_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_web_setting_tool -- -j16 -l16
+[7.301s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_web_setting_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_web_setting_tool -- -j16 -l16
+[7.302s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_web_setting_tool': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_web_setting_tool
+[7.498s] -- Install configuration: "Release"
+[7.501s] -- Execute custom install script
+[7.501s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/index.html
+[7.501s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/js/EventEmitter2.js
+[7.501s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/js/jquery-ui.css
+[7.501s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/js/jquery-ui.js
+[7.501s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/js/jquery.js
+[7.511s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/js/mjpegcanvas.js
+[7.537s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/html/js/roslib.js
+[7.561s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/launch/web_setting_server.launch.xml
+[7.586s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/ament_index/resource_index/package_run_dependencies/op3_web_setting_tool
+[7.607s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/ament_index/resource_index/parent_prefix_path/op3_web_setting_tool
+[7.629s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/environment/ament_prefix_path.sh
+[7.647s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/environment/ament_prefix_path.dsv
+[7.683s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/environment/path.sh
+[7.727s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/environment/path.dsv
+[7.746s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/local_setup.bash
+[7.784s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/local_setup.sh
+[7.817s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/local_setup.zsh
+[7.852s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/local_setup.dsv
+[7.871s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/package.dsv
+[7.905s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/ament_index/resource_index/packages/op3_web_setting_tool
+[7.939s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/cmake/op3_web_setting_toolConfig.cmake
+[8.094s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/cmake/op3_web_setting_toolConfig-version.cmake
+[8.123s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_web_setting_tool/share/op3_web_setting_tool/package.xml
+[8.160s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_web_setting_tool' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_web_setting_tool

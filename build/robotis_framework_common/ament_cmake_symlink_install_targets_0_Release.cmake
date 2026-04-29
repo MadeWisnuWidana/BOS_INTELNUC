@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brone-ub/brone_main_ws/build/robotis_framework_common/librobotis_framework_common.a" "TARGETS" "robotis_framework_common" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

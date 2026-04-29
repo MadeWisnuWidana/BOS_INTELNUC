@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-cd3bcdfe8ed21b86ca69.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rf_gz_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rf_gz_bridge_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf_gz_bridge_node-Release-baf9f9fc911a3b65f98f.json",
+					"name" : "rf_gz_bridge_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rf_gz_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rf_gz_bridge_uninstall-Release-c8dcba385c98beef59ea.json",
+					"name" : "rf_gz_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-d3578473cd5a3720d6f9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/brone-ub/brone_main_ws/build/rf_gz_bridge",
+		"source" : "/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Simulations/rf_gz_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

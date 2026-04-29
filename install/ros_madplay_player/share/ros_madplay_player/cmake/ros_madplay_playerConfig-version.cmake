@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/ros_madplay_player/ament_cmake_core/ros_madplay_playerConfig-version.cmake

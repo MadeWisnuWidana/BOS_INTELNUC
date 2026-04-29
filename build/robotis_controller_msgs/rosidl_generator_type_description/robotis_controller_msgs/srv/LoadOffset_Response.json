@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotis_controller_msgs/srv/LoadOffset_Response",
+      "fields": [
+        {
+          "name": "result",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotis_controller_msgs/srv/LoadOffset_Response",
+      "hash_string": "RIHS01_ff53c1c5ba9ea1cfa6b9b927ec7a46d234cb998eb442122d9629d8ade13cd000"
+    }
+  ]
+}

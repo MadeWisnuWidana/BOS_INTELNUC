@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_offset_tuner_msgs/srv/GetPresentJointOffsetData_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_offset_tuner_msgs/srv/GetPresentJointOffsetData_Request",
+      "hash_string": "RIHS01_d963806ef75362a408fa561aa3b0c931b364bc13eee45dedbcf3ef995b3d1083"
+    }
+  ]
+}

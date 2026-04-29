@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/brone-ub/brone_main_ws/build/brone_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/brone_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/brone_core
+[0.020s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.171s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.177s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.243s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.243s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.244s] -- Added test 'lint_cmake' to check CMake code style
+[0.244s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.245s] -- Added test 'xmllint' to check XML markup files
+[0.245s] -- Configuring done (0.2s)
+[0.247s] -- Generating done (0.0s)
+[0.382s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/brone_core
+[0.387s] Invoked command in '/home/brone-ub/brone_main_ws/build/brone_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/brone_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/brone_core
+[0.389s] Invoking command in '/home/brone-ub/brone_main_ws/build/brone_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/brone_core -- -j16 -l16
+[0.426s] Invoked command in '/home/brone-ub/brone_main_ws/build/brone_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/brone_core -- -j16 -l16
+[0.436s] Invoking command in '/home/brone-ub/brone_main_ws/build/brone_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/brone_core
+[0.444s] -- Install configuration: "Release"
+[0.444s] -- Execute custom install script
+[0.444s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/package_run_dependencies/brone_core
+[0.444s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/parent_prefix_path/brone_core
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.sh
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.dsv
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/path.sh
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/path.dsv
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.bash
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.sh
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.zsh
+[0.445s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.dsv
+[0.445s] -- Symlinking: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/package.dsv
+[0.452s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/packages/brone_core
+[0.452s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/cmake/brone_coreConfig.cmake
+[0.452s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/cmake/brone_coreConfig-version.cmake
+[0.452s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/package.xml
+[0.453s] Invoked command in '/home/brone-ub/brone_main_ws/build/brone_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/brone_core

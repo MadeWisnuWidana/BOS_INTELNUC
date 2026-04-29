@@ -1,0 +1,408 @@
+[0.054s] Invoking command in '/home/brone-ub/brone_main_ws/build/robotis_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-Framework-msgs/robotis_controller_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/robotis_controller_msgs
+[0.297s] -- The C compiler identification is GNU 13.3.0
+[0.427s] -- The CXX compiler identification is GNU 13.3.0
+[0.447s] -- Detecting C compiler ABI info
+[0.784s] -- Detecting C compiler ABI info - done
+[0.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.803s] -- Detecting C compile features
+[0.803s] -- Detecting C compile features - done
+[0.811s] -- Detecting CXX compiler ABI info
+[1.168s] -- Detecting CXX compiler ABI info - done
+[1.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.182s] -- Detecting CXX compile features
+[1.182s] -- Detecting CXX compile features - done
+[1.187s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.369s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.543s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.618s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.689s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.717s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.747s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.833s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.930s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.972s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.417s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.168s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.471s] -- Found PythonExtra: /home/brone-ub/robotis_ws/.venv/bin/python3  
+[7.677s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.941s] -- Configuring done (7.9s)
+[8.200s] -- Generating done (0.2s)
+[8.239s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/robotis_controller_msgs
+[8.342s] Invoked command in '/home/brone-ub/brone_main_ws/build/robotis_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-Framework-msgs/robotis_controller_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/robotis_controller_msgs
+[8.342s] Invoking command in '/home/brone-ub/brone_main_ws/build/robotis_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/robotis_controller_msgs -- -j16 -l16
+[26.035s] [  0%] Built target ament_cmake_python_symlink_robotis_controller_msgs
+[26.035s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[26.035s] running egg_info
+[26.035s] creating robotis_controller_msgs.egg-info
+[26.036s] writing robotis_controller_msgs.egg-info/PKG-INFO
+[26.036s] writing dependency_links to robotis_controller_msgs.egg-info/dependency_links.txt
+[26.036s] writing top-level names to robotis_controller_msgs.egg-info/top_level.txt
+[26.036s] writing manifest file 'robotis_controller_msgs.egg-info/SOURCES.txt'
+[26.036s] reading manifest file 'robotis_controller_msgs.egg-info/SOURCES.txt'
+[26.036s] writing manifest file 'robotis_controller_msgs.egg-info/SOURCES.txt'
+[26.036s] [  1%] Built target ament_cmake_python_build_robotis_controller_msgs_egg
+[26.036s] [  1%] Built target robotis_controller_msgs__rosidl_generator_type_description
+[26.036s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[26.036s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[26.036s] [  2%] Built target robotis_controller_msgs__cpp
+[26.037s] [  3%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/get_joint_module__type_support.c.o[0m
+[26.037s] [  4%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/sync_write_item__type_support.c.o[0m
+[26.037s] [  5%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/get_joint_module__functions.c.o[0m
+[26.037s] [  7%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/joint_ctrl_module__description.c.o[0m
+[26.037s] [  6%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/sync_write_item__functions.c.o[0m
+[26.037s] [  8%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.c.o[0m
+[26.037s] [  9%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/sync_write_item__description.c.o[0m
+[26.037s] [ 10%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/set_joint_module__description.c.o[0m
+[26.037s] [ 11%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/joint_ctrl_module__functions.c.o[0m
+[26.037s] [ 12%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/get_joint_module__description.c.o[0m
+[26.037s] [ 13%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/write_control_table__description.c.o[0m
+[26.038s] [ 15%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/write_control_table__type_support.c.o[0m
+[26.038s] [ 16%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/status_msg__type_support.c.o[0m
+[26.038s] [ 17%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/status_msg__description.c.o[0m
+[26.038s] [ 15%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/write_control_table__functions.c.o[0m
+[26.038s] [ 18%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/msg/detail/status_msg__functions.c.o[0m
+[26.038s] [ 19%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/set_joint_module__functions.c.o[0m
+[26.038s] [ 20%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/set_joint_module__type_support.c.o[0m
+[26.038s] [ 21%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/set_module__type_support.c.o[0m
+[26.038s] [ 22%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/load_offset__description.c.o[0m
+[26.038s] [ 22%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/load_offset__type_support.c.o[0m
+[26.038s] [ 23%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/set_module__functions.c.o[0m
+[26.038s] [ 24%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/set_module__description.c.o[0m
+[26.039s] [ 25%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_c.dir/rosidl_generator_c/robotis_controller_msgs/srv/detail/load_offset__functions.c.o[0m
+[26.039s] [ 26%] [32m[1mLinking C shared library librobotis_controller_msgs__rosidl_generator_c.so[0m
+[26.039s] [ 26%] Built target robotis_controller_msgs__rosidl_generator_c
+[26.039s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.039s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.039s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[26.039s] [ 31%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[26.039s] [ 30%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[26.039s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[26.039s] [ 31%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/msg/write_control_table__type_support.cpp.o[0m
+[26.039s] [ 32%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/msg/sync_write_item__type_support.cpp.o[0m
+[26.040s] [ 33%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/srv/get_joint_module__type_support.cpp.o[0m
+[26.040s] [ 34%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/msg/joint_ctrl_module__type_support.cpp.o[0m
+[26.040s] [ 35%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/srv/load_offset__type_support.cpp.o[0m
+[26.040s] [ 36%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/msg/status_msg__type_support.cpp.o[0m
+[26.040s] [ 37%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/srv/set_module__type_support.cpp.o[0m
+[26.040s] [ 38%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robotis_controller_msgs/srv/set_joint_module__type_support.cpp.o[0m
+[26.040s] [ 39%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.c.o[0m
+[26.040s] [ 40%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/msg/detail/write_control_table__type_support.c.o[0m
+[26.040s] [ 41%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/msg/detail/status_msg__type_support.c.o[0m
+[26.040s] [ 42%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/msg/detail/sync_write_item__type_support.c.o[0m
+[26.040s] [ 43%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/srv/detail/set_joint_module__type_support.c.o[0m
+[26.041s] [ 44%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/srv/detail/load_offset__type_support.c.o[0m
+[26.041s] [ 45%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/srv/detail/get_joint_module__type_support.c.o[0m
+[26.041s] [ 46%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robotis_controller_msgs/srv/detail/set_module__type_support.c.o[0m
+[26.041s] [ 47%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/msg/sync_write_item__type_support.cpp.o[0m
+[26.041s] [ 48%] [32m[1mLinking C shared library librobotis_controller_msgs__rosidl_typesupport_introspection_c.so[0m
+[26.041s] [ 49%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/srv/get_joint_module__type_support.cpp.o[0m
+[26.041s] [ 49%] Built target robotis_controller_msgs__rosidl_typesupport_introspection_c
+[26.041s] [ 50%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/srv/set_module__type_support.cpp.o[0m
+[26.041s] [ 51%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/srv/load_offset__type_support.cpp.o[0m
+[26.041s] [ 52%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/srv/set_joint_module__type_support.cpp.o[0m
+[26.041s] [ 53%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/msg/detail/sync_write_item__type_support.cpp.o[0m
+[26.042s] [ 54%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/msg/write_control_table__type_support.cpp.o[0m
+[26.042s] [ 55%] [32m[1mLinking CXX shared library librobotis_controller_msgs__rosidl_typesupport_cpp.so[0m
+[26.042s] [ 56%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/msg/status_msg__type_support.cpp.o[0m
+[26.042s] [ 57%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robotis_controller_msgs/msg/joint_ctrl_module__type_support.cpp.o[0m
+[26.042s] [ 57%] Built target robotis_controller_msgs__rosidl_typesupport_cpp
+[26.042s] [ 58%] [32m[1mLinking CXX shared library librobotis_controller_msgs__rosidl_typesupport_c.so[0m
+[26.042s] [ 58%] Built target robotis_controller_msgs__rosidl_typesupport_c
+[26.042s] [ 59%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/srv/detail/load_offset__type_support.cpp.o[0m
+[26.042s] [ 60%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/msg/detail/dds_fastrtps/sync_write_item__type_support.cpp.o[0m
+[26.042s] [ 61%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/msg/detail/sync_write_item__type_support_c.cpp.o[0m
+[26.042s] [ 62%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/srv/detail/set_module__type_support.cpp.o[0m
+[26.043s] [ 63%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/srv/detail/dds_fastrtps/load_offset__type_support.cpp.o[0m
+[26.043s] [ 64%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/msg/detail/status_msg__type_support_c.cpp.o[0m
+[26.047s] [ 65%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/srv/detail/set_joint_module__type_support.cpp.o[0m
+[26.795s] [ 66%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/srv/detail/get_joint_module__type_support_c.cpp.o[0m
+[26.806s] [ 67%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/srv/detail/dds_fastrtps/set_module__type_support.cpp.o[0m
+[27.134s] [ 68%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/srv/detail/get_joint_module__type_support.cpp.o[0m
+[27.878s] [ 69%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/srv/detail/load_offset__type_support_c.cpp.o[0m
+[28.344s] [ 70%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/srv/detail/dds_fastrtps/set_joint_module__type_support.cpp.o[0m
+[28.469s] [ 71%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/msg/detail/write_control_table__type_support.cpp.o[0m
+[29.330s] [ 72%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/msg/detail/status_msg__type_support.cpp.o[0m
+[29.359s] [ 73%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/srv/detail/set_module__type_support_c.cpp.o[0m
+[29.914s] [ 74%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.cpp.o[0m
+[29.932s] [ 75%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/srv/detail/dds_fastrtps/get_joint_module__type_support.cpp.o[0m
+[30.357s] [ 76%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/srv/detail/set_joint_module__type_support_c.cpp.o[0m
+[30.545s] [ 77%] [32m[1mLinking CXX shared library librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[30.686s] [ 77%] Built target robotis_controller_msgs__rosidl_typesupport_introspection_cpp
+[31.154s] [ 78%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/msg/detail/write_control_table__type_support_c.cpp.o[0m
+[31.193s] [ 79%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/msg/detail/dds_fastrtps/write_control_table__type_support.cpp.o[0m
+[32.024s] [ 80%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support_c.cpp.o[0m
+[32.055s] [ 81%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/msg/detail/dds_fastrtps/status_msg__type_support.cpp.o[0m
+[32.593s] [ 82%] [32m[1mLinking CXX shared library librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[32.715s] [ 82%] Built target robotis_controller_msgs__rosidl_typesupport_fastrtps_c
+[32.862s] [ 83%] [32mBuilding CXX object CMakeFiles/robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robotis_controller_msgs/msg/detail/dds_fastrtps/joint_ctrl_module__type_support.cpp.o[0m
+[33.556s] [ 84%] [32m[1mLinking CXX shared library librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.703s] [ 84%] Built target robotis_controller_msgs__rosidl_typesupport_fastrtps_cpp
+[33.733s] [ 84%] Built target robotis_controller_msgs
+[33.763s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.147s] [ 85%] Built target robotis_controller_msgs__py
+[36.178s] [ 86%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/msg/_sync_write_item_s.c.o[0m
+[36.395s] [ 87%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/srv/_load_offset_s.c.o[0m
+[36.813s] [ 88%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/srv/_set_module_s.c.o[0m
+[37.270s] [ 89%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/srv/_set_joint_module_s.c.o[0m
+[37.674s] [ 90%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/srv/_get_joint_module_s.c.o[0m
+[38.132s] [ 91%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/msg/_write_control_table_s.c.o[0m
+[38.507s] [ 92%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/msg/_status_msg_s.c.o[0m
+[38.880s] [ 93%] [32mBuilding C object CMakeFiles/robotis_controller_msgs__rosidl_generator_py.dir/rosidl_generator_py/robotis_controller_msgs/msg/_joint_ctrl_module_s.c.o[0m
+[39.332s] [ 94%] [32m[1mLinking C shared library librobotis_controller_msgs__rosidl_generator_py.so[0m
+[39.412s] [ 94%] Built target robotis_controller_msgs__rosidl_generator_py
+[39.451s] [ 95%] [32mBuilding C object CMakeFiles/robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[39.877s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[39.916s] [ 96%] Built target robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c
+[39.945s] [ 97%] [32mBuilding C object CMakeFiles/robotis_controller_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[40.337s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_c.so[0m
+[40.374s] [ 98%] Built target robotis_controller_msgs_s__rosidl_typesupport_c
+[40.399s] [ 99%] [32mBuilding C object CMakeFiles/robotis_controller_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[40.813s] [100%] [32m[1mLinking C shared module rosidl_generator_py/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[40.855s] [100%] Built target robotis_controller_msgs_s__rosidl_typesupport_introspection_c
+[40.878s] Invoked command in '/home/brone-ub/brone_main_ws/build/robotis_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/robotis_controller_msgs -- -j16 -l16
+[40.879s] Invoking command in '/home/brone-ub/brone_main_ws/build/robotis_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/robotis_controller_msgs
+[43.852s] -- Install configuration: "Release"
+[43.853s] -- Execute custom install script
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/ament_index/resource_index/rosidl_interfaces/robotis_controller_msgs
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/SyncWriteItem.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/JointCtrlModule.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/StatusMsg.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/WriteControlTable.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset.json
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__functions.h
+[43.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__functions.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__struct.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__type_support.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__functions.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__struct.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__type_support.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__functions.h
+[43.854s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__struct.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__type_support.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/joint_ctrl_module.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_generator_c__visibility_control.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/status_msg.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/sync_write_item.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/write_control_table.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__functions.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__struct.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__type_support.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__functions.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__struct.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__type_support.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__functions.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__struct.h
+[43.855s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__type_support.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__functions.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__struct.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__type_support.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/get_joint_module.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/load_offset.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_joint_module.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_module.h
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/library_path.sh
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/library_path.dsv
+[43.856s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_fastrtps_c.h
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__builder.hpp
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__struct.hpp
+[43.857s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__traits.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__type_support.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__builder.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__struct.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__traits.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__type_support.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__builder.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__struct.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__traits.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__type_support.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__builder.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__struct.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__traits.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__type_support.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/joint_ctrl_module.hpp
+[43.858s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/status_msg.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/sync_write_item.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/write_control_table.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__builder.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__struct.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__traits.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__type_support.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__builder.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__struct.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__traits.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__type_support.hpp
+[43.859s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__builder.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__struct.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__traits.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__type_support.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__builder.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__struct.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__traits.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__type_support.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/get_joint_module.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/load_offset.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_joint_module.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/set_module.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_fastrtps_cpp.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_fastrtps_cpp.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_fastrtps_cpp.hpp
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[43.860s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_fastrtps_cpp.hpp
+[43.862s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_fastrtps_cpp.hpp
+[43.872s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_fastrtps_cpp.hpp
+[43.884s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_fastrtps_cpp.hpp
+[43.896s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_introspection_c.h
+[43.910s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_introspection_c.h
+[43.920s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_introspection_c.h
+[43.935s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_introspection_c.h
+[43.946s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[43.962s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_introspection_c.h
+[43.976s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_introspection_c.h
+[43.989s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_introspection_c.h
+[44.001s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_introspection_c.h
+[44.016s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/joint_ctrl_module__rosidl_typesupport_introspection_cpp.hpp
+[44.029s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_introspection_cpp.hpp
+[44.045s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/sync_write_item__rosidl_typesupport_introspection_cpp.hpp
+[44.059s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/msg/detail/write_control_table__rosidl_typesupport_introspection_cpp.hpp
+[44.074s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/get_joint_module__rosidl_typesupport_introspection_cpp.hpp
+[44.089s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/load_offset__rosidl_typesupport_introspection_cpp.hpp
+[44.101s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_joint_module__rosidl_typesupport_introspection_cpp.hpp
+[44.116s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/include/robotis_controller_msgs/robotis_controller_msgs/srv/detail/set_module__rosidl_typesupport_introspection_cpp.hpp
+[44.131s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/pythonpath.sh
+[44.144s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/pythonpath.dsv
+[44.159s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs-0.1.4-py3.12.egg-info/PKG-INFO
+[44.172s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs-0.1.4-py3.12.egg-info/SOURCES.txt
+[44.185s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs-0.1.4-py3.12.egg-info/dependency_links.txt
+[44.201s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs-0.1.4-py3.12.egg-info/top_level.txt
+[44.220s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/__init__.py
+[44.230s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_c.c
+[44.244s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.259s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/_robotis_controller_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[44.273s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/__init__.py
+[44.285s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_joint_ctrl_module.py
+[44.295s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_joint_ctrl_module_s.c
+[44.311s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_status_msg.py
+[44.325s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_status_msg_s.c
+[44.336s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_sync_write_item.py
+[44.346s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_sync_write_item_s.c
+[44.362s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_write_control_table.py
+[44.374s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_write_control_table_s.c
+[44.386s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_c.so
+[44.395s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c.so
+[44.406s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_introspection_c.so
+[44.416s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/__init__.py
+[44.427s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_get_joint_module.py
+[44.436s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_get_joint_module_s.c
+[44.446s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_load_offset.py
+[44.462s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_load_offset_s.c
+[44.475s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_set_joint_module.py
+[44.485s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_set_joint_module_s.c
+[44.497s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_set_module.py
+[44.512s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_set_module_s.c
+[44.528s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_fastrtps_c.so
+[44.529s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_introspection_c.so
+[44.529s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/robotis_controller_msgs_s__rosidl_typesupport_c.so
+[44.529s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/SyncWriteItem.idl
+[44.544s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/JointCtrlModule.idl
+[44.556s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/StatusMsg.idl
+[44.572s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/WriteControlTable.idl
+[44.582s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule.idl
+[44.592s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule.idl
+[44.604s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule.idl
+[44.614s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset.idl
+[44.624s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/SyncWriteItem.msg
+[44.634s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/JointCtrlModule.msg
+[44.648s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/StatusMsg.msg
+[44.664s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/msg/WriteControlTable.msg
+[44.681s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/GetJointModule.srv
+[44.699s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetJointModule.srv
+[44.711s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/SetModule.srv
+[44.721s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/srv/LoadOffset.srv
+[44.731s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/ament_index/resource_index/package_run_dependencies/robotis_controller_msgs
+[44.741s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/ament_index/resource_index/parent_prefix_path/robotis_controller_msgs
+[44.751s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/ament_prefix_path.sh
+[44.761s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/ament_prefix_path.dsv
+[44.772s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/path.sh
+[44.782s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/environment/path.dsv
+[44.792s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.bash
+[44.802s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.sh
+[44.811s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.zsh
+[44.821s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/local_setup.dsv
+[44.831s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/package.dsv
+[44.842s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/ament_index/resource_index/packages/robotis_controller_msgs
+[44.853s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/rosidl_cmake-extras.cmake
+[44.864s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.876s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.886s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[44.897s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[44.907s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[44.917s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[44.927s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgsConfig.cmake
+[44.937s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgsConfig-version.cmake
+[44.947s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/package.xml
+[44.960s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so
+[44.960s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_c.so" to ""
+[44.960s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so
+[44.961s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[44.962s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so
+[44.962s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[44.963s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so
+[44.963s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_c.so" to ""
+[44.963s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so
+[44.963s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_c.so" to ""
+[44.963s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so
+[44.963s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[44.963s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so
+[44.964s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_typesupport_cpp.so" to ""
+[45.061s] Listing '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs'...
+[45.061s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/__init__.py'...
+[45.061s] Listing '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg'...
+[45.061s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/__init__.py'...
+[45.061s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_joint_ctrl_module.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_status_msg.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_sync_write_item.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/msg/_write_control_table.py'...
+[45.062s] Listing '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/__init__.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_get_joint_module.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_load_offset.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_set_joint_module.py'...
+[45.062s] Compiling '/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/python3.12/site-packages/robotis_controller_msgs/srv/_set_module.py'...
+[45.073s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so
+[45.074s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/robotis_controller_msgs/lib/librobotis_controller_msgs__rosidl_generator_py.so" to ""
+[45.074s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_cExport.cmake
+[45.074s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_cExport-release.cmake
+[45.074s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[45.074s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[45.074s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_cppExport.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cExport.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cExport.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cExport-release.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[45.075s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cppExport.cmake
+[45.076s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/robotis_controller_msgs__rosidl_typesupport_cppExport-release.cmake
+[45.076s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_pyExport.cmake
+[45.076s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_controller_msgs/share/robotis_controller_msgs/cmake/export_robotis_controller_msgs__rosidl_generator_pyExport-release.cmake
+[45.079s] Invoked command in '/home/brone-ub/brone_main_ws/build/robotis_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/robotis_controller_msgs

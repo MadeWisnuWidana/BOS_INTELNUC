@@ -1,0 +1,6 @@
+setup.py
+robotis_controller_msgs/__init__.py
+robotis_controller_msgs.egg-info/PKG-INFO
+robotis_controller_msgs.egg-info/SOURCES.txt
+robotis_controller_msgs.egg-info/dependency_links.txt
+robotis_controller_msgs.egg-info/top_level.txt

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d5048ed208bd57f127bb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "op3_offset_tuner_msgs__py",
+					"jsonFile" : "directory-op3_offset_tuner_msgs__py-Release-34b87da2a3901ad47f72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs/op3_offset_tuner_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "op3_offset_tuner_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_op3_offset_tuner_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_op3_offset_tuner_msgs_egg-Release-94bb033a8f7559cf4320.json",
+					"name" : "ament_cmake_python_build_op3_offset_tuner_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_op3_offset_tuner_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_op3_offset_tuner_msgs-Release-4117b790f613e768ee04.json",
+					"name" : "ament_cmake_python_symlink_op3_offset_tuner_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs-Release-935e25450634f079cfbf.json",
+					"name" : "op3_offset_tuner_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__cpp-Release-a03289e186c482f4ba33.json",
+					"name" : "op3_offset_tuner_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "op3_offset_tuner_msgs__py::@fb08ae6c5aaf9e137371",
+					"jsonFile" : "target-op3_offset_tuner_msgs__py-Release-ab4256abd4a36dada78a.json",
+					"name" : "op3_offset_tuner_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_generator_c-Release-4f754ff22a810aa35357.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_generator_py-Release-1b97080fde0eb6dd75d1.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_generator_type_description-Release-c26601f1cc6e8a4c0aa5.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_c-Release-fb47f4d3e7604015d4cb.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_cpp-Release-4dde6bb8e138f96ab779.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c-Release-73d42b88aab8dd1da225.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp-Release-1695e2226ec88e84418d.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_introspection_c-Release-9b01ec9ed0c25bce9b2d.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp-Release-0da4c73ab315a25cf806.json",
+					"name" : "op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs_s__rosidl_typesupport_c-Release-6f74fd2a507fa3814b34.json",
+					"name" : "op3_offset_tuner_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c-Release-8b78b1a23352c8332863.json",
+					"name" : "op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c-Release-6a030bb6cbd5cfb92ecd.json",
+					"name" : "op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_offset_tuner_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_offset_tuner_msgs_uninstall-Release-50b5885b8d94664f41da.json",
+					"name" : "op3_offset_tuner_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-8bfafb5521044b89ad46.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs",
+		"source" : "/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

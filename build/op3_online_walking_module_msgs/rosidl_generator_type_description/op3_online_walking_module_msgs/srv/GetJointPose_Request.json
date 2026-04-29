@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_online_walking_module_msgs/srv/GetJointPose_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_online_walking_module_msgs/srv/GetJointPose_Request",
+      "hash_string": "RIHS01_75425946df190f81155dd95b404902f059bff2802bb5337c1c3dd3826e5d3553"
+    }
+  ]
+}

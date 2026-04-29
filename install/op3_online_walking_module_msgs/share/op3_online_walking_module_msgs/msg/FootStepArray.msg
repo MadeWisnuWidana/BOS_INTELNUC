@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_online_walking_module_msgs/msg/FootStepArray.msg

@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_base_module/ament_cmake_environment_hooks/local_setup.zsh

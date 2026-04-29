@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/ament_cmake_core/op3_ball_detectorConfig.cmake

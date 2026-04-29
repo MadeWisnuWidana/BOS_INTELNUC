@@ -1,0 +1,6 @@
+msg/WalkingParam.idl
+msg/WalkingParam.msg
+srv/GetWalkingParam.idl
+srv/GetWalkingParam.srv
+srv/SetWalkingParam.idl
+srv/SetWalkingParam.srv

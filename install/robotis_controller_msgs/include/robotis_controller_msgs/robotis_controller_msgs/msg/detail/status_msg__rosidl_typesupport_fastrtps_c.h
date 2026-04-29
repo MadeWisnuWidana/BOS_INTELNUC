@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/robotis_controller_msgs/rosidl_typesupport_fastrtps_c/robotis_controller_msgs/msg/detail/status_msg__rosidl_typesupport_fastrtps_c.h

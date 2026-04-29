@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6c476da666fa756a1186.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "op3_walking_module_msgs__py",
+					"jsonFile" : "directory-op3_walking_module_msgs__py-Release-bb77cb04289788cdcf12.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/brone-ub/brone_main_ws/build/op3_walking_module_msgs/op3_walking_module_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "op3_walking_module_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_op3_walking_module_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_op3_walking_module_msgs_egg-Release-e23626259ebd9282cf05.json",
+					"name" : "ament_cmake_python_build_op3_walking_module_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_op3_walking_module_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_op3_walking_module_msgs-Release-60a062618f9088957504.json",
+					"name" : "ament_cmake_python_symlink_op3_walking_module_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs-Release-3880445d24c44c6278ad.json",
+					"name" : "op3_walking_module_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__cpp-Release-5b47ed3892f569d2ea75.json",
+					"name" : "op3_walking_module_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "op3_walking_module_msgs__py::@15f63a2d48751c1af8ba",
+					"jsonFile" : "target-op3_walking_module_msgs__py-Release-709bea1e33fd0ae42e85.json",
+					"name" : "op3_walking_module_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_generator_c-Release-c266ad3d68772f45417f.json",
+					"name" : "op3_walking_module_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_generator_py-Release-55140974ae0e90238761.json",
+					"name" : "op3_walking_module_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_generator_type_description-Release-8a483c1747d182d11262.json",
+					"name" : "op3_walking_module_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_c-Release-1e860b3bb2dbd09b58f1.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_cpp-Release-e0bc37950f4fe98eb5f4.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_fastrtps_c-Release-cdacdcdcde29be7e6b29.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp-Release-cb7313195844ded45bec.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_introspection_c-Release-0908cdd2941129c09c63.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs__rosidl_typesupport_introspection_cpp-Release-b626bfb99d92e8b04fe2.json",
+					"name" : "op3_walking_module_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs_s__rosidl_typesupport_c-Release-02f8b9abffba97bfa24a.json",
+					"name" : "op3_walking_module_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs_s__rosidl_typesupport_fastrtps_c-Release-86a06aa919fa547f7fa1.json",
+					"name" : "op3_walking_module_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs_s__rosidl_typesupport_introspection_c-Release-dfcdb6750da4f34fefbd.json",
+					"name" : "op3_walking_module_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "op3_walking_module_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-op3_walking_module_msgs_uninstall-Release-7cd9485015c28ef91e62.json",
+					"name" : "op3_walking_module_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-fbb3397a3c8075477675.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/brone-ub/brone_main_ws/build/op3_walking_module_msgs",
+		"source" : "/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_walking_module_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

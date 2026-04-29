@@ -1,0 +1,318 @@
+[0.040s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs
+[0.273s] -- The C compiler identification is GNU 13.3.0
+[0.395s] -- The CXX compiler identification is GNU 13.3.0
+[0.414s] -- Detecting C compiler ABI info
+[0.759s] -- Detecting C compiler ABI info - done
+[0.776s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.776s] -- Detecting C compile features
+[0.776s] -- Detecting C compile features - done
+[0.786s] -- Detecting CXX compiler ABI info
+[1.141s] -- Detecting CXX compiler ABI info - done
+[1.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.158s] -- Detecting CXX compile features
+[1.158s] -- Detecting CXX compile features - done
+[1.168s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.372s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.592s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.760s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.764s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[2.903s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.705s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.720s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.072s] -- Found PythonExtra: /home/brone-ub/robotis_ws/.venv/bin/python3  
+[7.546s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.798s] -- Configuring done (7.7s)
+[8.099s] -- Generating done (0.3s)
+[8.138s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs
+[8.309s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_offset_tuner_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs
+[8.309s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs -- -j16 -l16
+[12.629s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[12.629s] [  1%] Built target ament_cmake_python_symlink_op3_offset_tuner_msgs
+[12.630s] [  1%] Built target op3_offset_tuner_msgs__rosidl_generator_type_description
+[12.630s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[12.630s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.630s] running egg_info
+[12.630s] creating op3_offset_tuner_msgs.egg-info
+[12.630s] writing op3_offset_tuner_msgs.egg-info/PKG-INFO
+[12.631s] writing dependency_links to op3_offset_tuner_msgs.egg-info/dependency_links.txt
+[12.631s] writing top-level names to op3_offset_tuner_msgs.egg-info/top_level.txt
+[12.631s] writing manifest file 'op3_offset_tuner_msgs.egg-info/SOURCES.txt'
+[12.631s] reading manifest file 'op3_offset_tuner_msgs.egg-info/SOURCES.txt'
+[12.631s] writing manifest file 'op3_offset_tuner_msgs.egg-info/SOURCES.txt'
+[12.631s] [  4%] Built target ament_cmake_python_build_op3_offset_tuner_msgs_egg
+[12.631s] [  5%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_data__functions.c.o[0m
+[12.631s] [  6%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.c.o[0m
+[12.631s] [  8%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__functions.c.o[0m
+[12.631s] [  9%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_data__description.c.o[0m
+[12.631s] [ 10%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__functions.c.o[0m
+[12.632s] [ 12%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__description.c.o[0m
+[12.633s] [ 13%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__description.c.o[0m
+[12.633s] [ 14%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.c.o[0m
+[12.634s] [ 16%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__description.c.o[0m
+[12.634s] [ 17%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.c.o[0m
+[12.634s] [ 18%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__functions.c.o[0m
+[12.634s] [ 20%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__functions.c.o[0m
+[12.634s] [ 21%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.c.o[0m
+[12.634s] [ 22%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__description.c.o[0m
+[12.634s] [ 24%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.c.o[0m
+[12.634s] [ 24%] Built target op3_offset_tuner_msgs__cpp
+[12.634s] [ 25%] [32m[1mLinking C shared library libop3_offset_tuner_msgs__rosidl_generator_c.so[0m
+[12.634s] [ 25%] Built target op3_offset_tuner_msgs__rosidl_generator_c
+[12.634s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.635s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.635s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.635s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.635s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.635s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.440s] [ 35%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_offset_tuner_msgs/msg/joint_offset_data__type_support.cpp.o[0m
+[15.441s] [ 36%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_offset_tuner_msgs/msg/joint_torque_on_off__type_support.cpp.o[0m
+[15.452s] [ 37%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_offset_tuner_msgs/msg/joint_offset_position_data__type_support.cpp.o[0m
+[15.467s] [ 39%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_offset_tuner_msgs/msg/joint_torque_on_off_array__type_support.cpp.o[0m
+[15.489s] [ 40%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_offset_tuner_msgs/srv/get_present_joint_offset_data__type_support.cpp.o[0m
+[15.581s] [ 41%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_offset_tuner_msgs/msg/joint_offset_data__type_support.cpp.o[0m
+[15.643s] [ 43%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_offset_tuner_msgs/msg/joint_offset_position_data__type_support.cpp.o[0m
+[15.657s] [ 44%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_offset_tuner_msgs/msg/joint_torque_on_off__type_support.cpp.o[0m
+[15.670s] [ 45%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_offset_tuner_msgs/msg/joint_torque_on_off_array__type_support.cpp.o[0m
+[15.672s] [ 47%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_offset_tuner_msgs/srv/get_present_joint_offset_data__type_support.cpp.o[0m
+[16.005s] [ 48%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.c.o[0m
+[16.029s] [ 50%] [32m[1mLinking CXX shared library libop3_offset_tuner_msgs__rosidl_typesupport_c.so[0m
+[16.092s] [ 51%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.c.o[0m
+[16.094s] [ 52%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.c.o[0m
+[16.101s] [ 54%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.c.o[0m
+[16.111s] [ 55%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.c.o[0m
+[16.321s] [ 58%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.cpp.o[0m
+[16.322s] [ 56%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.cpp.o[0m
+[16.356s] [ 59%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.cpp.o[0m
+[16.359s] [ 59%] Built target op3_offset_tuner_msgs__rosidl_typesupport_c
+[16.407s] [ 60%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.cpp.o[0m
+[16.408s] [ 62%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.cpp.o[0m
+[16.980s] [ 63%] [32m[1mLinking C shared library libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so[0m
+[17.005s] [ 64%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support_c.cpp.o[0m
+[17.015s] [ 66%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support_c.cpp.o[0m
+[17.024s] [ 67%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support_c.cpp.o[0m
+[17.051s] [ 68%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support_c.cpp.o[0m
+[17.143s] [ 68%] Built target op3_offset_tuner_msgs__rosidl_typesupport_introspection_c
+[17.174s] [ 70%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support_c.cpp.o[0m
+[18.045s] [ 71%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_offset_tuner_msgs/msg/detail/dds_fastrtps/joint_offset_data__type_support.cpp.o[0m
+[18.292s] [ 72%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_offset_tuner_msgs/msg/detail/dds_fastrtps/joint_offset_position_data__type_support.cpp.o[0m
+[18.673s] [ 74%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_offset_tuner_msgs/msg/detail/dds_fastrtps/joint_torque_on_off__type_support.cpp.o[0m
+[18.758s] [ 75%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_offset_tuner_msgs/msg/detail/dds_fastrtps/joint_torque_on_off_array__type_support.cpp.o[0m
+[18.787s] [ 77%] [32mBuilding CXX object CMakeFiles/op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_offset_tuner_msgs/srv/detail/dds_fastrtps/get_present_joint_offset_data__type_support.cpp.o[0m
+[20.849s] [ 78%] [32m[1mLinking CXX shared library libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so[0m
+[21.722s] [ 78%] Built target op3_offset_tuner_msgs__rosidl_typesupport_cpp
+[22.245s] [ 79%] [32m[1mLinking CXX shared library libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[22.498s] [ 81%] [32m[1mLinking CXX shared library libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[22.924s] [ 81%] Built target op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c
+[23.132s] [ 81%] Built target op3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp
+[24.123s] [ 82%] [32m[1mLinking CXX shared library libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.356s] [ 82%] Built target op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp
+[24.425s] [ 82%] Built target op3_offset_tuner_msgs
+[24.467s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.737s] [ 83%] Built target op3_offset_tuner_msgs__py
+[25.770s] [ 85%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_offset_tuner_msgs/msg/_joint_offset_data_s.c.o[0m
+[25.971s] [ 86%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_offset_tuner_msgs/srv/_get_present_joint_offset_data_s.c.o[0m
+[26.339s] [ 87%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_offset_tuner_msgs/msg/_joint_torque_on_off_array_s.c.o[0m
+[26.758s] [ 89%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_offset_tuner_msgs/msg/_joint_torque_on_off_s.c.o[0m
+[26.969s] [ 90%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_offset_tuner_msgs/msg/_joint_offset_position_data_s.c.o[0m
+[27.244s] [ 91%] [32m[1mLinking C shared library libop3_offset_tuner_msgs__rosidl_generator_py.so[0m
+[27.326s] [ 91%] Built target op3_offset_tuner_msgs__rosidl_generator_py
+[27.359s] [ 93%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/op3_offset_tuner_msgs/_op3_offset_tuner_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[27.851s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[27.900s] [ 94%] Built target op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c
+[27.932s] [ 95%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/op3_offset_tuner_msgs/_op3_offset_tuner_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[28.466s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_c.so[0m
+[28.515s] [ 97%] Built target op3_offset_tuner_msgs_s__rosidl_typesupport_c
+[28.555s] [ 98%] [32mBuilding C object CMakeFiles/op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/op3_offset_tuner_msgs/_op3_offset_tuner_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[29.304s] [100%] [32m[1mLinking C shared module rosidl_generator_py/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[29.349s] [100%] Built target op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c
+[29.381s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs -- -j16 -l16
+[29.383s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs
+[30.407s] -- Install configuration: "Release"
+[30.407s] -- Execute custom install script
+[30.407s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/ament_index/resource_index/rosidl_interfaces/op3_offset_tuner_msgs
+[30.408s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointOffsetData.json
+[30.408s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointOffsetPositionData.json
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointTorqueOnOff.json
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.json
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.json
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__functions.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__struct.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__functions.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__struct.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__functions.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__struct.h
+[30.409s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__functions.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__struct.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_offset_data.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_offset_position_data.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_torque_on_off.h
+[30.410s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_torque_on_off_array.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__functions.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__struct.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/get_present_joint_offset_data.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/library_path.sh
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/library_path.dsv
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__rosidl_typesupport_fastrtps_c.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__rosidl_typesupport_fastrtps_c.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__rosidl_typesupport_fastrtps_c.h
+[30.411s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__rosidl_typesupport_fastrtps_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__rosidl_typesupport_fastrtps_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__rosidl_typesupport_introspection_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__rosidl_typesupport_introspection_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__rosidl_typesupport_introspection_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__rosidl_typesupport_introspection_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__rosidl_typesupport_introspection_c.h
+[30.412s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__builder.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__struct.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__traits.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__builder.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__struct.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__traits.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__type_support.hpp
+[30.413s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__builder.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__struct.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__traits.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__type_support.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__builder.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__struct.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__traits.hpp
+[30.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__type_support.hpp
+[30.415s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_offset_data.hpp
+[30.425s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_offset_position_data.hpp
+[30.439s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_torque_on_off.hpp
+[30.452s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/joint_torque_on_off_array.hpp
+[30.465s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.479s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__builder.hpp
+[30.494s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__struct.hpp
+[30.508s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__traits.hpp
+[30.520s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__type_support.hpp
+[30.532s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/get_present_joint_offset_data.hpp
+[30.546s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__rosidl_typesupport_fastrtps_cpp.hpp
+[30.560s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__rosidl_typesupport_fastrtps_cpp.hpp
+[30.576s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__rosidl_typesupport_fastrtps_cpp.hpp
+[30.593s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__rosidl_typesupport_fastrtps_cpp.hpp
+[30.611s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.625s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__rosidl_typesupport_fastrtps_cpp.hpp
+[30.639s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_data__rosidl_typesupport_introspection_cpp.hpp
+[30.652s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_offset_position_data__rosidl_typesupport_introspection_cpp.hpp
+[30.661s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off__rosidl_typesupport_introspection_cpp.hpp
+[30.675s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/msg/detail/joint_torque_on_off_array__rosidl_typesupport_introspection_cpp.hpp
+[30.686s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/include/op3_offset_tuner_msgs/op3_offset_tuner_msgs/srv/detail/get_present_joint_offset_data__rosidl_typesupport_introspection_cpp.hpp
+[30.697s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/pythonpath.sh
+[30.708s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/pythonpath.dsv
+[30.722s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs-0.1.1-py3.12.egg-info/PKG-INFO
+[30.735s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs-0.1.1-py3.12.egg-info/SOURCES.txt
+[30.748s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs-0.1.1-py3.12.egg-info/dependency_links.txt
+[30.760s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs-0.1.1-py3.12.egg-info/top_level.txt
+[30.775s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/__init__.py
+[30.786s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/_op3_offset_tuner_msgs_s.ep.rosidl_typesupport_c.c
+[30.871s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/_op3_offset_tuner_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.883s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/_op3_offset_tuner_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.897s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/__init__.py
+[30.909s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_offset_data.py
+[30.921s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_offset_data_s.c
+[30.935s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_offset_position_data.py
+[30.945s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_offset_position_data_s.c
+[30.955s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_torque_on_off.py
+[30.966s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_torque_on_off_array.py
+[30.975s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_torque_on_off_array_s.c
+[30.988s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_torque_on_off_s.c
+[31.002s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_c.so
+[31.014s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.023s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c.so
+[31.032s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/srv/__init__.py
+[31.041s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/srv/_get_present_joint_offset_data.py
+[31.053s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/srv/_get_present_joint_offset_data_s.c
+[31.066s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_fastrtps_c.so
+[31.067s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_introspection_c.so
+[31.067s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/op3_offset_tuner_msgs_s__rosidl_typesupport_c.so
+[31.067s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointOffsetData.idl
+[31.076s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointOffsetPositionData.idl
+[31.085s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointTorqueOnOff.idl
+[31.099s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.idl
+[31.111s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.idl
+[31.125s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointOffsetData.msg
+[31.137s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointOffsetPositionData.msg
+[31.146s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointTorqueOnOff.msg
+[31.159s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/msg/JointTorqueOnOffArray.msg
+[31.172s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/srv/GetPresentJointOffsetData.srv
+[31.184s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/ament_index/resource_index/package_run_dependencies/op3_offset_tuner_msgs
+[31.200s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/ament_index/resource_index/parent_prefix_path/op3_offset_tuner_msgs
+[31.214s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/ament_prefix_path.sh
+[31.225s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/ament_prefix_path.dsv
+[31.235s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/path.sh
+[31.247s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/environment/path.dsv
+[31.257s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/local_setup.bash
+[31.266s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/local_setup.sh
+[31.279s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/local_setup.zsh
+[31.292s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/local_setup.dsv
+[31.306s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/package.dsv
+[31.316s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/ament_index/resource_index/packages/op3_offset_tuner_msgs
+[31.328s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/rosidl_cmake-extras.cmake
+[31.342s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.358s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.365s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[31.378s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[31.393s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.400s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.416s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgsConfig.cmake
+[31.429s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgsConfig-version.cmake
+[31.446s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/package.xml
+[31.461s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_c.so
+[31.461s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_c.so" to ""
+[31.462s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so
+[31.462s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[31.462s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so
+[31.463s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_c.so" to ""
+[31.463s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_c.so
+[31.463s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_c.so" to ""
+[31.463s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so
+[31.464s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.464s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so
+[31.464s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[31.464s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so
+[31.465s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_typesupport_cpp.so" to ""
+[31.544s] Listing '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs'...
+[31.544s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/__init__.py'...
+[31.545s] Listing '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/__init__.py'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_offset_data.py'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_offset_position_data.py'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_torque_on_off.py'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/msg/_joint_torque_on_off_array.py'...
+[31.545s] Listing '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/srv'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/srv/__init__.py'...
+[31.545s] Compiling '/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/python3.12/site-packages/op3_offset_tuner_msgs/srv/_get_present_joint_offset_data.py'...
+[31.559s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_py.so
+[31.560s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/lib/libop3_offset_tuner_msgs__rosidl_generator_py.so" to ""
+[31.560s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_generator_cExport.cmake
+[31.560s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_generator_cExport-release.cmake
+[31.560s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[31.560s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[31.560s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cExport.cmake
+[31.561s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[31.561s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_cExport.cmake
+[31.561s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_cExport-release.cmake
+[31.561s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_generator_cppExport.cmake
+[31.561s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[31.561s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[31.562s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[31.562s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[31.562s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_cppExport.cmake
+[31.562s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/op3_offset_tuner_msgs__rosidl_typesupport_cppExport-release.cmake
+[31.562s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_generator_pyExport.cmake
+[31.562s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_offset_tuner_msgs/share/op3_offset_tuner_msgs/cmake/export_op3_offset_tuner_msgs__rosidl_generator_pyExport-release.cmake
+[31.566s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs

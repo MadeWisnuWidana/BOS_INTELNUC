@@ -1,0 +1,8 @@
+msg/BallDetectorParams.idl
+msg/BallDetectorParams.msg
+msg/CircleSetStamped.idl
+msg/CircleSetStamped.msg
+srv/GetParameters.idl
+srv/GetParameters.srv
+srv/SetParameters.idl
+srv/SetParameters.srv

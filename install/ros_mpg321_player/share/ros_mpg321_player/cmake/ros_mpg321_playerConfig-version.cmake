@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/ros_mpg321_player/ament_cmake_core/ros_mpg321_playerConfig-version.cmake

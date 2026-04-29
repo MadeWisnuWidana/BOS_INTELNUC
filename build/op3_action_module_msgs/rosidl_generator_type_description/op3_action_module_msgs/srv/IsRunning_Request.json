@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_action_module_msgs/srv/IsRunning_Request",
+      "fields": [
+        {
+          "name": "structure_needs_at_least_one_member",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_action_module_msgs/srv/IsRunning_Request",
+      "hash_string": "RIHS01_0b1c512dbd1c40b15a902675bc6c088bb0de06b18a1efff95ee880821851d1b4"
+    }
+  ]
+}

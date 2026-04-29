@@ -1,0 +1,16 @@
+msg/JointCtrlModule.idl
+msg/JointCtrlModule.msg
+msg/StatusMsg.idl
+msg/StatusMsg.msg
+msg/SyncWriteItem.idl
+msg/SyncWriteItem.msg
+msg/WriteControlTable.idl
+msg/WriteControlTable.msg
+srv/GetJointModule.idl
+srv/GetJointModule.srv
+srv/LoadOffset.idl
+srv/LoadOffset.srv
+srv/SetJointModule.idl
+srv/SetJointModule.srv
+srv/SetModule.idl
+srv/SetModule.srv

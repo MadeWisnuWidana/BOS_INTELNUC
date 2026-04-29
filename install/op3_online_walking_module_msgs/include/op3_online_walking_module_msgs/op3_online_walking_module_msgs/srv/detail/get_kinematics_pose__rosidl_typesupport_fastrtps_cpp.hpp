@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_online_walking_module_msgs/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp

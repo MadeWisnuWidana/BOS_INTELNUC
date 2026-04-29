@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_walking_module_msgs/ament_cmake_environment_hooks/local_setup.sh

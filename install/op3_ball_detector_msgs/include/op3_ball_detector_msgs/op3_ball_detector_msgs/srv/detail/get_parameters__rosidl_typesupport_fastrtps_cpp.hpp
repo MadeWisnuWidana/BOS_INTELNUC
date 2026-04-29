@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs/rosidl_typesupport_fastrtps_cpp/op3_ball_detector_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_cpp.hpp

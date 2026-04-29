@@ -1,0 +1,8 @@
+source;share/brone_core/hook/cmake_prefix_path.ps1
+source;share/brone_core/hook/cmake_prefix_path.dsv
+source;share/brone_core/hook/cmake_prefix_path.sh
+source;share/brone_core/local_setup.bash
+source;share/brone_core/local_setup.dsv
+source;share/brone_core/local_setup.ps1
+source;share/brone_core/local_setup.sh
+source;share/brone_core/local_setup.zsh

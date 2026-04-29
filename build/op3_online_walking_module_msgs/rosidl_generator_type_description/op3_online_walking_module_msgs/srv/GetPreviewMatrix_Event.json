@@ -1,0 +1,261 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Event",
+      "fields": [
+        {
+          "name": "info",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "service_msgs/msg/ServiceEventInfo"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "request",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Request"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "response",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Response"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "builtin_interfaces/msg/Time",
+        "fields": [
+          {
+            "name": "sec",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "nanosec",
+            "type": {
+              "type_id": 7,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "op3_online_walking_module_msgs/msg/PreviewRequest",
+        "fields": [
+          {
+            "name": "control_cycle",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "lipm_height",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "op3_online_walking_module_msgs/msg/PreviewResponse",
+        "fields": [
+          {
+            "name": "k_row",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "k_col",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "k",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "p_row",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "p_col",
+            "type": {
+              "type_id": 6,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "p",
+            "type": {
+              "type_id": 155,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Request",
+        "fields": [
+          {
+            "name": "req",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "op3_online_walking_module_msgs/msg/PreviewRequest"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Response",
+        "fields": [
+          {
+            "name": "res",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "op3_online_walking_module_msgs/msg/PreviewResponse"
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "service_msgs/msg/ServiceEventInfo",
+        "fields": [
+          {
+            "name": "event_type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "stamp",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "builtin_interfaces/msg/Time"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "client_gid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "sequence_number",
+            "type": {
+              "type_id": 8,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Event",
+      "hash_string": "RIHS01_b1ed2ad55430e2a2eced4a2b4cd660a50e67610e50bdf78f04dd9140948503f6"
+    },
+    {
+      "type_name": "builtin_interfaces/msg/Time",
+      "hash_string": "RIHS01_b106235e25a4c5ed35098aa0a61a3ee9c9b18d197f398b0e4206cea9acf9c197"
+    },
+    {
+      "type_name": "op3_online_walking_module_msgs/msg/PreviewRequest",
+      "hash_string": "RIHS01_cfad89b3e06303d7fd0f25592fdeb2df0f0fc4371ebe8a702eb0929acb118ca6"
+    },
+    {
+      "type_name": "op3_online_walking_module_msgs/msg/PreviewResponse",
+      "hash_string": "RIHS01_d6bfa92e05657f48dbc757d47b1798bfa4e67b95e9e4fd26ec44bab7cc0f9267"
+    },
+    {
+      "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Request",
+      "hash_string": "RIHS01_75663c7d7deebdfcf748d114be91e70041d6da6363a46aacb6e8b975a35a1db2"
+    },
+    {
+      "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Response",
+      "hash_string": "RIHS01_e1e154098bbb239567d3123b7e251ff8b1bc16bf390b8e451e4b17327aeaedce"
+    },
+    {
+      "type_name": "service_msgs/msg/ServiceEventInfo",
+      "hash_string": "RIHS01_41bcbbe07a75c9b52bc96bfd5c24d7f0fc0a08c0cb7921b3373c5732345a6f45"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+-- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found usb_cam: 0.8.2 (/home/brone-ub/robotis_ws/install/usb_cam/share/usb_cam/cmake)
+-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+-- Found OpenCV: /usr (found version "4.6.0") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread 
+-- Found op3_ball_detector_msgs: 0.1.0 (/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.8.0
+-- Configuring done (2.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_ball_detector
+[ 33%] [32mBuilding CXX object CMakeFiles/ball_detector_node.dir/src/ball_detector.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/ball_detector_node.dir/src/ball_detector_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ball_detector_node[0m
+[100%] Built target ball_detector_node
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/lib/op3_ball_detector/ball_detector_node
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/include/op3_ball_detector/ball_detector.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/include/op3_ball_detector/ball_detector_config.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/include/op3_ball_detector/detector_params_config.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/config/ball_detector_params.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/config/ball_detector_params_default.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/config/ball_detector_params_op.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/config/camera_info.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/config/camera_param.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/launch/ball_detector_from_usb_cam.launch.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/rviz/ball_detector.rviz
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/ament_index/resource_index/package_run_dependencies/op3_ball_detector
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/ament_index/resource_index/parent_prefix_path/op3_ball_detector
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/environment/ament_prefix_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/environment/ament_prefix_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/environment/path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/environment/path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/local_setup.bash
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/local_setup.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/local_setup.zsh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/local_setup.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/package.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/ament_index/resource_index/packages/op3_ball_detector
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/cmake/op3_ball_detectorConfig.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/cmake/op3_ball_detectorConfig-version.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector/share/op3_ball_detector/package.xml

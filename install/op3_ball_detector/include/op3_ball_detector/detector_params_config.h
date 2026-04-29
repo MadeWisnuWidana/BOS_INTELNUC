@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Demo/op3_ball_detector/include/op3_ball_detector/detector_params_config.h

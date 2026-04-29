@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs/rosidl_cmake/rosidl_cmake-extras.cmake

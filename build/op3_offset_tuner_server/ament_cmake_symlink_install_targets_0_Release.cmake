@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brone-ub/brone_main_ws/build/op3_offset_tuner_server/offset_tuner_server_node" "TARGETS" "offset_tuner_server_node" "DESTINATION" "lib/op3_offset_tuner_server")

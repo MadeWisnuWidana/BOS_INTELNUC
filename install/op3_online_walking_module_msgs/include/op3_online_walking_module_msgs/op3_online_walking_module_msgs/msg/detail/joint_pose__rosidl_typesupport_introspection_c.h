@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_online_walking_module_msgs/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h

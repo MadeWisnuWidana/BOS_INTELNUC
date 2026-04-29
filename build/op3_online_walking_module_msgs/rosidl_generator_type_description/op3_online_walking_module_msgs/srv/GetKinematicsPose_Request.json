@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_online_walking_module_msgs/srv/GetKinematicsPose_Request",
+      "fields": [
+        {
+          "name": "name",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_online_walking_module_msgs/srv/GetKinematicsPose_Request",
+      "hash_string": "RIHS01_cfec88c5605e41bf296821f303960c36c9e865d215cd4a80d516760ac0bfab5c"
+    }
+  ]
+}

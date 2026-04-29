@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-Math/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h

@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-Math/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h

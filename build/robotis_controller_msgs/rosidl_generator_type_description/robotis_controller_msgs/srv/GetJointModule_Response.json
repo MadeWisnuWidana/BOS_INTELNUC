@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "robotis_controller_msgs/srv/GetJointModule_Response",
+      "fields": [
+        {
+          "name": "joint_name",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "module_name",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "robotis_controller_msgs/srv/GetJointModule_Response",
+      "hash_string": "RIHS01_44705c69ed352f990f5cfe55d7370995e7b0aa7e46d7dfd4d1f79a805cb4119f"
+    }
+  ]
+}

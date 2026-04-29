@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/brone_core/ament_cmake_core/brone_coreConfig-version.cmake

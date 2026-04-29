@@ -1,0 +1,16 @@
+/home/brone-ub/brone_main_ws/install/brone_core/lib/brone_core/state_machine_node.py
+/home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/package_run_dependencies/brone_core
+/home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/parent_prefix_path/brone_core
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.sh
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.dsv
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/path.sh
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/path.dsv
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.bash
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.sh
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.zsh
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/local_setup.dsv
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/package.dsv
+/home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/packages/brone_core
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/cmake/brone_coreConfig.cmake
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/cmake/brone_coreConfig-version.cmake
+/home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/package.xml

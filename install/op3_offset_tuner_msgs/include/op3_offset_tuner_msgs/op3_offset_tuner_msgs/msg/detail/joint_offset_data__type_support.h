@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_offset_tuner_msgs/rosidl_generator_c/op3_offset_tuner_msgs/msg/detail/joint_offset_data__type_support.h

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_walking_module_msgs/srv/GetWalkingParam_Request",
+      "fields": [
+        {
+          "name": "get_param",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_walking_module_msgs/srv/GetWalkingParam_Request",
+      "hash_string": "RIHS01_aec2526855988bec39eeb7f27698006e3dd12120e42f8e9860cf9cf1e22e74c2"
+    }
+  ]
+}

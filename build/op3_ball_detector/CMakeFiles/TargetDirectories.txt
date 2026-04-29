@@ -1,0 +1,10 @@
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/uninstall.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/op3_ball_detector_uninstall.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/ball_detector_node.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/test.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/edit_cache.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/rebuild_cache.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/list_install_components.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/install.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/install/local.dir
+/home/brone-ub/brone_main_ws/build/op3_ball_detector/CMakeFiles/install/strip.dir

@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found webots_ros2_driver: 2025.0.0 (/opt/ros/jazzy/share/webots_ros2_driver/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.8.0
+-- Configuring done (9.9s)
+-- Generating done (0.4s)
+-- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_webots_ros2
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_extern_controller.dir/src/op3_extern_controller.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/op3_extern_controller.dir/src/extern_controller_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable op3_extern_controller[0m
+[100%] Built target op3_extern_controller
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/lib/op3_webots_ros2/op3_extern_controller
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/include/op3_webots_ros2/op3_extern_controller.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//launch/robot_launch.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//resource/op3_pid_gain_default.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//images/grid.png
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//protos/RobotisOp3.proto
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//worlds/.robotis_op3_extern.jpg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//worlds/.robotis_op3_extern.wbproj
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//worlds/my_world.wbt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2//worlds/robotis_op3_extern.wbt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/ament_index/resource_index/package_run_dependencies/op3_webots_ros2
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/ament_index/resource_index/parent_prefix_path/op3_webots_ros2
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/environment/path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/environment/path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/local_setup.bash
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/local_setup.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/local_setup.zsh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/local_setup.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/package.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/ament_index/resource_index/packages/op3_webots_ros2
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/cmake/op3_webots_ros2Config.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/cmake/op3_webots_ros2Config-version.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_webots_ros2/share/op3_webots_ros2/package.xml

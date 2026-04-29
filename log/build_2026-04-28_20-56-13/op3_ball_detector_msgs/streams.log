@@ -1,0 +1,292 @@
+[0.042s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_ball_detector_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs
+[0.279s] -- The C compiler identification is GNU 13.3.0
+[0.412s] -- The CXX compiler identification is GNU 13.3.0
+[0.434s] -- Detecting C compiler ABI info
+[0.763s] -- Detecting C compiler ABI info - done
+[0.775s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.775s] -- Detecting C compile features
+[0.780s] -- Detecting C compile features - done
+[0.785s] -- Detecting CXX compiler ABI info
+[1.147s] -- Detecting CXX compiler ABI info - done
+[1.158s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.159s] -- Detecting CXX compile features
+[1.159s] -- Detecting CXX compile features - done
+[1.166s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.361s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.516s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.587s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.659s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.684s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.780s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.827s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.858s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.069s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.183s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.805s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.814s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.076s] -- Found PythonExtra: /home/brone-ub/robotis_ws/.venv/bin/python3  
+[7.261s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.451s] -- Configuring done (7.4s)
+[7.572s] -- Generating done (0.1s)
+[7.593s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs
+[7.643s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-msgs/op3_ball_detector_msgs -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs
+[7.643s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs -- -j16 -l16
+[9.148s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[9.148s] [  1%] Built target ament_cmake_python_symlink_op3_ball_detector_msgs
+[9.148s] running egg_info
+[9.148s] creating op3_ball_detector_msgs.egg-info
+[9.148s] writing op3_ball_detector_msgs.egg-info/PKG-INFO
+[9.148s] writing dependency_links to op3_ball_detector_msgs.egg-info/dependency_links.txt
+[9.148s] writing top-level names to op3_ball_detector_msgs.egg-info/top_level.txt
+[9.148s] writing manifest file 'op3_ball_detector_msgs.egg-info/SOURCES.txt'
+[9.149s] reading manifest file 'op3_ball_detector_msgs.egg-info/SOURCES.txt'
+[9.149s] writing manifest file 'op3_ball_detector_msgs.egg-info/SOURCES.txt'
+[9.149s] [  1%] Built target ament_cmake_python_build_op3_ball_detector_msgs_egg
+[9.240s] [  1%] Built target op3_ball_detector_msgs__rosidl_generator_type_description
+[9.282s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.310s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.177s] [  4%] Built target op3_ball_detector_msgs__cpp
+[13.265s] [  6%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/ball_detector_params__description.c.o[0m
+[13.271s] [  7%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/srv/detail/get_parameters__functions.c.o[0m
+[13.282s] [  9%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/ball_detector_params__functions.c.o[0m
+[13.287s] [ 10%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/circle_set_stamped__description.c.o[0m
+[13.298s] [ 14%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support.c.o[0m
+[13.298s] [ 14%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/circle_set_stamped__functions.c.o[0m
+[13.301s] [ 15%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.c.o[0m
+[13.319s] [ 17%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/srv/detail/get_parameters__type_support.c.o[0m
+[13.320s] [ 20%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/srv/detail/set_parameters__description.c.o[0m
+[13.320s] [ 21%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/srv/detail/get_parameters__description.c.o[0m
+[13.320s] [ 21%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/srv/detail/set_parameters__type_support.c.o[0m
+[13.324s] [ 23%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_ball_detector_msgs/srv/detail/set_parameters__functions.c.o[0m
+[14.999s] [ 25%] [32m[1mLinking C shared library libop3_ball_detector_msgs__rosidl_generator_c.so[0m
+[15.623s] [ 25%] Built target op3_ball_detector_msgs__rosidl_generator_c
+[15.714s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.724s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[15.738s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[15.741s] [ 31%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.753s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[15.766s] [ 34%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[17.765s] [ 35%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_ball_detector_msgs/srv/get_parameters__type_support.cpp.o[0m
+[17.785s] [ 37%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_ball_detector_msgs/msg/ball_detector_params__type_support.cpp.o[0m
+[17.788s] [ 39%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_ball_detector_msgs/msg/circle_set_stamped__type_support.cpp.o[0m
+[17.832s] [ 40%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_ball_detector_msgs/srv/set_parameters__type_support.cpp.o[0m
+[18.245s] [ 42%] [32m[1mLinking CXX shared library libop3_ball_detector_msgs__rosidl_typesupport_c.so[0m
+[18.764s] [ 42%] Built target op3_ball_detector_msgs__rosidl_typesupport_c
+[19.158s] [ 43%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_ball_detector_msgs/srv/detail/get_parameters__type_support.c.o[0m
+[19.163s] [ 45%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support.c.o[0m
+[19.180s] [ 46%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_ball_detector_msgs/srv/detail/set_parameters__type_support.c.o[0m
+[19.202s] [ 48%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.c.o[0m
+[20.188s] [ 50%] [32m[1mLinking C shared library libop3_ball_detector_msgs__rosidl_typesupport_introspection_c.so[0m
+[20.435s] [ 50%] Built target op3_ball_detector_msgs__rosidl_typesupport_introspection_c
+[20.471s] [ 51%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_ball_detector_msgs/srv/get_parameters__type_support.cpp.o[0m
+[20.501s] [ 53%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_ball_detector_msgs/msg/ball_detector_params__type_support.cpp.o[0m
+[20.501s] [ 54%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_ball_detector_msgs/srv/set_parameters__type_support.cpp.o[0m
+[20.504s] [ 56%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_ball_detector_msgs/msg/circle_set_stamped__type_support.cpp.o[0m
+[21.772s] [ 57%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_ball_detector_msgs/srv/detail/set_parameters__type_support_c.cpp.o[0m
+[21.809s] [ 60%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support_c.cpp.o[0m
+[21.809s] [ 60%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support_c.cpp.o[0m
+[21.838s] [ 62%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_ball_detector_msgs/srv/detail/get_parameters__type_support_c.cpp.o[0m
+[22.537s] [ 64%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support.cpp.o[0m
+[22.878s] [ 65%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_ball_detector_msgs/msg/detail/dds_fastrtps/ball_detector_params__type_support.cpp.o[0m
+[23.773s] [ 67%] [32m[1mLinking CXX shared library libop3_ball_detector_msgs__rosidl_typesupport_cpp.so[0m
+[23.942s] [ 68%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_ball_detector_msgs/srv/detail/set_parameters__type_support.cpp.o[0m
+[24.035s] [ 68%] Built target op3_ball_detector_msgs__rosidl_typesupport_cpp
+[24.077s] [ 70%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_ball_detector_msgs/srv/detail/dds_fastrtps/set_parameters__type_support.cpp.o[0m
+[24.257s] [ 71%] [32m[1mLinking CXX shared library libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[24.426s] [ 71%] Built target op3_ball_detector_msgs__rosidl_typesupport_fastrtps_c
+[24.766s] [ 73%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_ball_detector_msgs/srv/detail/get_parameters__type_support.cpp.o[0m
+[25.358s] [ 75%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_ball_detector_msgs/srv/detail/dds_fastrtps/get_parameters__type_support.cpp.o[0m
+[25.363s] [ 76%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.cpp.o[0m
+[25.879s] [ 78%] [32m[1mLinking CXX shared library libop3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[26.152s] [ 78%] Built target op3_ball_detector_msgs__rosidl_typesupport_introspection_cpp
+[26.405s] [ 79%] [32mBuilding CXX object CMakeFiles/op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_ball_detector_msgs/msg/detail/dds_fastrtps/circle_set_stamped__type_support.cpp.o[0m
+[27.220s] [ 81%] [32m[1mLinking CXX shared library libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.390s] [ 81%] Built target op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp
+[27.443s] [ 81%] Built target op3_ball_detector_msgs
+[27.481s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[29.557s] [ 82%] Built target op3_ball_detector_msgs__py
+[29.593s] [ 84%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_ball_detector_msgs/msg/_ball_detector_params_s.c.o[0m
+[29.884s] [ 85%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_ball_detector_msgs/srv/_set_parameters_s.c.o[0m
+[30.336s] [ 87%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_ball_detector_msgs/srv/_get_parameters_s.c.o[0m
+[30.885s] [ 89%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_ball_detector_msgs/msg/_circle_set_stamped_s.c.o[0m
+[31.034s] [ 90%] [32m[1mLinking C shared library libop3_ball_detector_msgs__rosidl_generator_py.so[0m
+[31.091s] [ 90%] Built target op3_ball_detector_msgs__rosidl_generator_py
+[31.114s] [ 92%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/op3_ball_detector_msgs/_op3_ball_detector_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.440s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[31.485s] [ 93%] Built target op3_ball_detector_msgs_s__rosidl_typesupport_fastrtps_c
+[31.526s] [ 95%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/op3_ball_detector_msgs/_op3_ball_detector_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[31.848s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_c.so[0m
+[31.900s] [ 96%] Built target op3_ball_detector_msgs_s__rosidl_typesupport_c
+[31.938s] [ 98%] [32mBuilding C object CMakeFiles/op3_ball_detector_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/op3_ball_detector_msgs/_op3_ball_detector_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.465s] [100%] [32m[1mLinking C shared module rosidl_generator_py/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[32.499s] [100%] Built target op3_ball_detector_msgs_s__rosidl_typesupport_introspection_c
+[32.520s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs -- -j16 -l16
+[32.520s] Invoking command in '/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs
+[33.315s] -- Install configuration: "Release"
+[33.315s] -- Execute custom install script
+[33.315s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/ament_index/resource_index/rosidl_interfaces/op3_ball_detector_msgs
+[33.316s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/msg/BallDetectorParams.json
+[33.316s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/msg/CircleSetStamped.json
+[33.316s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/srv/GetParameters.json
+[33.316s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/srv/SetParameters.json
+[33.316s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/ball_detector_params.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/circle_set_stamped.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__functions.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__struct.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__functions.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__struct.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.h
+[33.317s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/rosidl_generator_c__visibility_control.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__functions.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__struct.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__type_support.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__functions.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__struct.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__type_support.h
+[33.318s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/get_parameters.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/set_parameters.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/library_path.sh
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/library_path.dsv
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__rosidl_typesupport_fastrtps_c.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__rosidl_typesupport_fastrtps_c.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_c.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__rosidl_typesupport_fastrtps_c.h
+[33.319s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/ball_detector_params.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/circle_set_stamped.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__builder.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__struct.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__traits.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__builder.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__struct.hpp
+[33.320s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__traits.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__type_support.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__builder.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__struct.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__traits.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__type_support.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__builder.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__struct.hpp
+[33.321s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__traits.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__type_support.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/get_parameters.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/set_parameters.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__rosidl_typesupport_fastrtps_cpp.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__rosidl_typesupport_fastrtps_cpp.hpp
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__rosidl_typesupport_introspection_c.h
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__rosidl_typesupport_introspection_c.h
+[33.322s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__rosidl_typesupport_introspection_c.h
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__rosidl_typesupport_introspection_c.h
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/ball_detector_params__rosidl_typesupport_introspection_cpp.hpp
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/msg/detail/circle_set_stamped__rosidl_typesupport_introspection_cpp.hpp
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/get_parameters__rosidl_typesupport_introspection_cpp.hpp
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/include/op3_ball_detector_msgs/op3_ball_detector_msgs/srv/detail/set_parameters__rosidl_typesupport_introspection_cpp.hpp
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/pythonpath.sh
+[33.323s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/pythonpath.dsv
+[33.324s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs-0.1.0-py3.12.egg-info/PKG-INFO
+[33.334s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs-0.1.0-py3.12.egg-info/SOURCES.txt
+[33.347s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs-0.1.0-py3.12.egg-info/dependency_links.txt
+[33.360s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs-0.1.0-py3.12.egg-info/top_level.txt
+[33.373s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/__init__.py
+[33.387s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/_op3_ball_detector_msgs_s.ep.rosidl_typesupport_c.c
+[33.400s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/_op3_ball_detector_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.414s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/_op3_ball_detector_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[33.429s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/__init__.py
+[33.441s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/_ball_detector_params.py
+[33.454s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/_ball_detector_params_s.c
+[33.468s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/_circle_set_stamped.py
+[33.481s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/_circle_set_stamped_s.c
+[33.494s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_c.so
+[33.507s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_fastrtps_c.so
+[33.523s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_introspection_c.so
+[33.536s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/__init__.py
+[33.548s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/_get_parameters.py
+[33.558s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/_get_parameters_s.c
+[33.572s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/_set_parameters.py
+[33.589s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/_set_parameters_s.c
+[33.605s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_fastrtps_c.so
+[33.605s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_introspection_c.so
+[33.605s] -- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/op3_ball_detector_msgs_s__rosidl_typesupport_c.so
+[33.605s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/msg/BallDetectorParams.idl
+[33.623s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/msg/CircleSetStamped.idl
+[33.637s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/srv/GetParameters.idl
+[33.649s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/srv/SetParameters.idl
+[33.665s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/msg/BallDetectorParams.msg
+[33.677s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/msg/CircleSetStamped.msg
+[33.691s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/srv/GetParameters.srv
+[33.703s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/srv/SetParameters.srv
+[33.714s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/ament_index/resource_index/package_run_dependencies/op3_ball_detector_msgs
+[33.725s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/ament_index/resource_index/parent_prefix_path/op3_ball_detector_msgs
+[33.735s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/ament_prefix_path.sh
+[33.750s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/ament_prefix_path.dsv
+[33.763s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/path.sh
+[33.776s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/environment/path.dsv
+[33.791s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/local_setup.bash
+[33.805s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/local_setup.sh
+[33.819s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/local_setup.zsh
+[33.834s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/local_setup.dsv
+[33.848s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/package.dsv
+[33.862s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/ament_index/resource_index/packages/op3_ball_detector_msgs
+[33.876s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/rosidl_cmake-extras.cmake
+[33.890s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.904s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.918s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[33.932s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[33.946s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.959s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.972s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgsConfig.cmake
+[33.985s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgsConfig-version.cmake
+[34.000s] -- Symlinking: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/package.xml
+[34.017s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_c.so
+[34.017s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_c.so" to ""
+[34.017s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.so
+[34.017s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[34.018s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.so
+[34.018s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.018s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_c.so
+[34.018s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_c.so" to ""
+[34.018s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_c.so
+[34.019s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_c.so" to ""
+[34.019s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.so
+[34.019s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[34.019s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_cpp.so
+[34.019s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_typesupport_cpp.so" to ""
+[34.104s] Listing '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs'...
+[34.104s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/__init__.py'...
+[34.105s] Listing '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg'...
+[34.105s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/__init__.py'...
+[34.105s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/_ball_detector_params.py'...
+[34.105s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/msg/_circle_set_stamped.py'...
+[34.105s] Listing '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv'...
+[34.105s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/__init__.py'...
+[34.105s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/_get_parameters.py'...
+[34.105s] Compiling '/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/python3.12/site-packages/op3_ball_detector_msgs/srv/_set_parameters.py'...
+[34.111s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_py.so
+[34.111s] -- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/lib/libop3_ball_detector_msgs__rosidl_generator_py.so" to ""
+[34.111s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_generator_cExport.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_generator_cExport-release.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_generator_cppExport.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[34.112s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_introspection_cExport.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_cExport.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_cExport-release.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_cppExport.cmake
+[34.113s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/op3_ball_detector_msgs__rosidl_typesupport_cppExport-release.cmake
+[34.114s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_generator_pyExport.cmake
+[34.114s] -- Installing: /home/brone-ub/brone_main_ws/install/op3_ball_detector_msgs/share/op3_ball_detector_msgs/cmake/export_op3_ball_detector_msgs__rosidl_generator_pyExport-release.cmake
+[34.118s] Invoked command in '/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs

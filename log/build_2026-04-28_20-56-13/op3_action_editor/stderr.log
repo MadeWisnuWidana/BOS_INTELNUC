@@ -1,0 +1,28 @@
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp:[m[K In function ‘[01m[Kvoid[01;32m[K sighandler[m[K(int)[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/main.cpp:34:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint[01;32m[K system[m[K(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+   34 |   [01;35m[Ksystem("clear")[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::ActionEditor::[01;32m[KdrawIntro[m[K()[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:459:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint[01;32m[K system[m[K(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  459 |   [01;35m[Ksystem("clear")[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::ActionEditor::[01;32m[KdrawEnding[m[K()[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:482:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint[01;32m[K system[m[K(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  482 |   [01;35m[Ksystem("clear")[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::ActionEditor::[01;32m[KdrawPage[m[K()[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:493:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint[01;32m[K system[m[K(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+  493 |   [01;35m[Ksystem("clear")[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::ActionEditor::[01;32m[KhelpCmd[m[K()[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:1184:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint[01;32m[K system[m[K(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1184 |   [01;35m[Ksystem("clear")[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::ActionEditor::[01;32m[KlistCmd[m[K()[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:1369:11:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kint[01;32m[K system[m[K(const char*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1369 |     [01;35m[Ksystem("clear")[m[K;
+      |     [01;35m[K~~~~~~^~~~~~~~~[m[K
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:[m[K In member function ‘[01m[Kvoid robotis_op::ActionEditor::[01;32m[KnameCmd[m[K()[m[K’:
+[01m[K/home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-OP3-Tools/op3_action_editor/src/action_editor.cpp:1974:8:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kchar*[01;32m[K fgets[m[K(char*, int, FILE*)[m[K’ declared with attribute ‘[01m[Kwarn_unused_result[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1974 |   [01;35m[Kfgets(name, 80, stdin)[m[K;
+      |   [01;35m[K~~~~~^~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,55 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_eigen: 0.36.14 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+-- Found robotis_math: 0.2.6 (/home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake)
+-- Configuring done (2.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_localization
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_localization.dir/src/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/op3_localization.dir/src/op3_localization.cpp.o[0m
+[100%] [32m[1mLinking CXX executable op3_localization[0m
+[100%] Built target op3_localization
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/lib/op3_localization/op3_localization
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/include/op3_localization/op3_localization.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/ament_index/resource_index/package_run_dependencies/op3_localization
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/ament_index/resource_index/parent_prefix_path/op3_localization
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/environment/ament_prefix_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/environment/ament_prefix_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/environment/path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/environment/path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/local_setup.bash
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/local_setup.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/local_setup.zsh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/local_setup.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/package.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/ament_index/resource_index/packages/op3_localization
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/cmake/op3_localizationConfig.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/cmake/op3_localizationConfig-version.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_localization/share/op3_localization/package.xml

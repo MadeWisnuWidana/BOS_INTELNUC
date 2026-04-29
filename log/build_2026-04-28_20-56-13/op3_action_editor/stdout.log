@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found dynamixel_sdk: 3.8.4 (/home/brone-ub/brone_main_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+-- Found robotis_controller: 0.2.9 (/home/brone-ub/brone_main_ws/install/robotis_controller/share/robotis_controller/cmake)
+-- Found robotis_math: 0.2.6 (/home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake)
+-- Found op3_action_module: 0.2.1 (/home/brone-ub/brone_main_ws/install/op3_action_module/share/op3_action_module/cmake)
+-- Found op3_base_module: 0.2.1 (/home/brone-ub/brone_main_ws/install/op3_base_module/share/op3_base_module/cmake)
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found Curses: /usr/lib/x86_64-linux-gnu/libcurses.so  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Checking for module 'yaml-cpp'
+--   Found yaml-cpp, version 0.8.0
+-- Configuring done (1.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_action_editor
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_action_editor.dir/src/main.cpp.o[0m
+[ 33%] Built target ament_cmake_python_symlink_op3_action_editor
+[ 66%] [32mBuilding CXX object CMakeFiles/op3_action_editor.dir/src/action_editor.cpp.o[0m
+running egg_info
+creating op3_action_editor.egg-info
+writing op3_action_editor.egg-info/PKG-INFO
+writing dependency_links to op3_action_editor.egg-info/dependency_links.txt
+writing top-level names to op3_action_editor.egg-info/top_level.txt
+writing manifest file 'op3_action_editor.egg-info/SOURCES.txt'
+reading manifest file 'op3_action_editor.egg-info/SOURCES.txt'
+writing manifest file 'op3_action_editor.egg-info/SOURCES.txt'
+[ 66%] Built target ament_cmake_python_build_op3_action_editor_egg
+[100%] [32m[1mLinking CXX executable op3_action_editor[0m
+[100%] Built target op3_action_editor
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/op3_action_editor/op3_action_editor
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/include/op3_action_editor/action_editor.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor//config/config_mirror_joint.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor//config/editor_script.yaml
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/environment/pythonpath.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/environment/pythonpath.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor-0.2.2-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor-0.2.2-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor-0.2.2-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor-0.2.2-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor/__init__.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor/module_to_import.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/lib/op3_action_editor/executor.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/ament_index/resource_index/package_run_dependencies/op3_action_editor
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/ament_index/resource_index/parent_prefix_path/op3_action_editor
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/environment/ament_prefix_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/environment/path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/environment/path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/local_setup.bash
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/local_setup.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/local_setup.zsh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/local_setup.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/package.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/ament_index/resource_index/packages/op3_action_editor
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/cmake/op3_action_editorConfig.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/cmake/op3_action_editorConfig-version.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_action_editor/share/op3_action_editor/package.xml
+Listing '/home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor/__init__.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_action_editor/lib/python3.12/site-packages/op3_action_editor/module_to_import.py'...

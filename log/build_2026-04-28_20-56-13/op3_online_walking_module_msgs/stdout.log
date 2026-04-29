@@ -1,0 +1,518 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+-- Found PythonExtra: /home/brone-ub/robotis_ws/.venv/bin/python3  
+-- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+-- Configuring done (8.2s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/brone-ub/brone_main_ws/build/op3_online_walking_module_msgs
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_symlink_op3_online_walking_module_msgs
+running egg_info
+creating op3_online_walking_module_msgs.egg-info
+writing op3_online_walking_module_msgs.egg-info/PKG-INFO
+writing dependency_links to op3_online_walking_module_msgs.egg-info/dependency_links.txt
+writing top-level names to op3_online_walking_module_msgs.egg-info/top_level.txt
+writing manifest file 'op3_online_walking_module_msgs.egg-info/SOURCES.txt'
+reading manifest file 'op3_online_walking_module_msgs.egg-info/SOURCES.txt'
+writing manifest file 'op3_online_walking_module_msgs.egg-info/SOURCES.txt'
+[  1%] Built target op3_online_walking_module_msgs__rosidl_generator_type_description
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_build_op3_online_walking_module_msgs_egg
+[  2%] Built target op3_online_walking_module_msgs__cpp
+[  2%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/kinematics_pose__description.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/joint_pose__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/kinematics_pose__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/foot_step_command__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/joint_pose__description.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/foot_step_command__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/preview_response__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/preview_response__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/walking_param__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/walking_param__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/step2_d__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/preview_request__description.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/foot_step_array__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/preview_request__functions.c.o[0m
+[ 17%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/foot_step_array__description.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/step2_d__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/step2_d_array__description.c.o[0m
+[ 19%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/msg/detail/step2_d_array__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_joint_pose__functions.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_joint_pose__description.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__description.c.o[0m
+[ 24%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__functions.c.o[0m
+[ 26%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__description.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_c.dir/rosidl_generator_c/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.c.o[0m
+[ 27%] [32m[1mLinking C shared library libop3_online_walking_module_msgs__rosidl_generator_c.so[0m
+[ 27%] Built target op3_online_walking_module_msgs__rosidl_generator_c
+[ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/joint_pose__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/srv/get_kinematics_pose__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/srv/get_preview_matrix__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/srv/get_joint_pose__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/step2_d_array__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/step2_d__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/walking_param__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/preview_response__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/preview_request__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/foot_step_array__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/foot_step_command__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/op3_online_walking_module_msgs/msg/kinematics_pose__type_support.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so[0m
+[ 36%] Built target op3_online_walking_module_msgs__rosidl_typesupport_cpp
+[ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.cpp.o[0m
+[ 45%] [32m[1mLinking CXX shared library libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 45%] Built target op3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp
+[ 46%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/joint_pose__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/srv/get_preview_matrix__type_support.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/srv/get_kinematics_pose__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/srv/get_joint_pose__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/step2_d_array__type_support.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/step2_d__type_support.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/walking_param__type_support.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/preview_response__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/preview_request__type_support.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/foot_step_array__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/foot_step_command__type_support.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/op3_online_walking_module_msgs/msg/kinematics_pose__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libop3_online_walking_module_msgs__rosidl_typesupport_c.so[0m
+[ 55%] Built target op3_online_walking_module_msgs__rosidl_typesupport_c
+[ 56%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 56%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.c.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.c.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.c.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.c.o[0m
+[ 61%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.c.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.c.o[0m
+[ 64%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.c.o[0m
+[ 65%] [32m[1mLinking C shared library libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 65%] Built target op3_online_walking_module_msgs__rosidl_typesupport_introspection_c
+[ 66%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/joint_pose__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/srv/detail/dds_fastrtps/get_preview_matrix__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/srv/detail/dds_fastrtps/get_kinematics_pose__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/srv/detail/dds_fastrtps/get_joint_pose__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/step2_d_array__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/step2_d__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/walking_param__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/preview_response__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/preview_request__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/foot_step_array__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/foot_step_command__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/op3_online_walking_module_msgs/msg/detail/dds_fastrtps/kinematics_pose__type_support.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 75%] Built target op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp
+[ 76%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support_c.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/step2_d__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/walking_param__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/preview_response__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/preview_request__type_support_c.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support_c.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support_c.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 85%] Built target op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c
+[ 85%] Built target op3_online_walking_module_msgs
+[ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 86%] Built target op3_online_walking_module_msgs__py
+[ 88%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_kinematics_pose_s.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_joint_pose_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/srv/_get_preview_matrix_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/srv/_get_kinematics_pose_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/srv/_get_joint_pose_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_step2_d_array_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_step2_d_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_walking_param_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_preview_response_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_preview_request_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_foot_step_array_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs__rosidl_generator_py.dir/rosidl_generator_py/op3_online_walking_module_msgs/msg/_foot_step_command_s.c.o[0m
+[ 95%] [32m[1mLinking C shared library libop3_online_walking_module_msgs__rosidl_generator_py.so[0m
+[ 95%] Built target op3_online_walking_module_msgs__rosidl_generator_py
+[ 96%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/op3_online_walking_module_msgs/_op3_online_walking_module_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/op3_online_walking_module_msgs/_op3_online_walking_module_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[ 98%] Built target op3_online_walking_module_msgs_s__rosidl_typesupport_fastrtps_c
+[ 98%] Built target op3_online_walking_module_msgs_s__rosidl_typesupport_introspection_c
+[ 99%] [32mBuilding C object CMakeFiles/op3_online_walking_module_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/op3_online_walking_module_msgs/_op3_online_walking_module_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_c.so[0m
+[100%] Built target op3_online_walking_module_msgs_s__rosidl_typesupport_c
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/ament_index/resource_index/rosidl_interfaces/op3_online_walking_module_msgs
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/JointPose.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/KinematicsPose.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/FootStepCommand.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/FootStepArray.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/PreviewRequest.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/PreviewResponse.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/WalkingParam.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/Step2D.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/Step2DArray.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetJointPose.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetKinematicsPose.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetPreviewMatrix.json
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/foot_step_array.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/foot_step_command.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/joint_pose.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/kinematics_pose.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/preview_request.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/preview_response.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/step2_d.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/step2_d_array.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/walking_param.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__functions.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__struct.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/get_joint_pose.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/get_kinematics_pose.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/get_preview_matrix.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/library_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/library_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/foot_step_array.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/foot_step_command.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/joint_pose.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/kinematics_pose.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/preview_request.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/preview_response.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/step2_d.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/step2_d_array.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/walking_param.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__builder.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__struct.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__traits.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__type_support.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/get_joint_pose.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/get_kinematics_pose.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/get_preview_matrix.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/foot_step_command__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/joint_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_request__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/preview_response__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/step2_d_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/msg/detail/walking_param__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_joint_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_kinematics_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/include/op3_online_walking_module_msgs/op3_online_walking_module_msgs/srv/detail/get_preview_matrix__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/pythonpath.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs-0.1.1-py3.12.egg-info/PKG-INFO
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs-0.1.1-py3.12.egg-info/SOURCES.txt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs-0.1.1-py3.12.egg-info/dependency_links.txt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs-0.1.1-py3.12.egg-info/top_level.txt
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/__init__.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/_op3_online_walking_module_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/_op3_online_walking_module_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/_op3_online_walking_module_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/__init__.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_foot_step_array.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_foot_step_array_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_foot_step_command.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_foot_step_command_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_joint_pose.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_joint_pose_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_kinematics_pose.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_kinematics_pose_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_preview_request.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_preview_request_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_preview_response.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_preview_response_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_step2_d.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_step2_d_array.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_step2_d_array_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_step2_d_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_walking_param.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_walking_param_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_introspection_c.so
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/__init__.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_joint_pose.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_joint_pose_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_kinematics_pose.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_kinematics_pose_s.c
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_preview_matrix.py
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_preview_matrix_s.c
+-- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_introspection_c.so
+-- Up-to-date symlink: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/op3_online_walking_module_msgs_s__rosidl_typesupport_c.so
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/JointPose.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/KinematicsPose.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/FootStepCommand.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/FootStepArray.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/PreviewRequest.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/PreviewResponse.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/WalkingParam.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/Step2D.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/Step2DArray.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetJointPose.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetKinematicsPose.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetPreviewMatrix.idl
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/JointPose.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/KinematicsPose.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/FootStepCommand.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/FootStepArray.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/PreviewRequest.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/PreviewResponse.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/WalkingParam.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/Step2D.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/msg/Step2DArray.msg
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetJointPose.srv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetKinematicsPose.srv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/srv/GetPreviewMatrix.srv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/ament_index/resource_index/package_run_dependencies/op3_online_walking_module_msgs
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/ament_index/resource_index/parent_prefix_path/op3_online_walking_module_msgs
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/path.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/environment/path.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/local_setup.bash
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/local_setup.sh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/local_setup.zsh
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/local_setup.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/package.dsv
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/ament_index/resource_index/packages/op3_online_walking_module_msgs
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgsConfig.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgsConfig-version.cmake
+-- Symlinking: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/package.xml
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/__init__.py'...
+Listing '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/__init__.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_foot_step_array.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_foot_step_command.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_joint_pose.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_kinematics_pose.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_preview_request.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_preview_response.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_step2_d.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_step2_d_array.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/msg/_walking_param.py'...
+Listing '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/__init__.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_joint_pose.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_kinematics_pose.py'...
+Compiling '/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/python3.12/site-packages/op3_online_walking_module_msgs/srv/_get_preview_matrix.py'...
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so
+-- Set non-toolchain portion of runtime path of "/home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/lib/libop3_online_walking_module_msgs__rosidl_generator_py.so" to ""
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_generator_cExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/op3_online_walking_module_msgs__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /home/brone-ub/brone_main_ws/install/op3_online_walking_module_msgs/share/op3_online_walking_module_msgs/cmake/export_op3_online_walking_module_msgs__rosidl_generator_pyExport-release.cmake

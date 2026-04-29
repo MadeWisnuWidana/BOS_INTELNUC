@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_action_module_msgs/msg/StartAction",
+      "fields": [
+        {
+          "name": "page_num",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "joint_name_array",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_action_module_msgs/msg/StartAction",
+      "hash_string": "RIHS01_219ab1dd720f605ce6a2b5739b85af05c2bcbce0824702bd029e3265467a2e1f"
+    }
+  ]
+}

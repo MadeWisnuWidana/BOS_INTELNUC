@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_offset_tuner_msgs/msg/JointTorqueOnOffArray",
+      "fields": [
+        {
+          "name": "torque_enable_data",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "op3_offset_tuner_msgs/msg/JointTorqueOnOff"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "op3_offset_tuner_msgs/msg/JointTorqueOnOff",
+        "fields": [
+          {
+            "name": "joint_name",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "torque_enable",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_offset_tuner_msgs/msg/JointTorqueOnOffArray",
+      "hash_string": "RIHS01_1e928d7a7cf45bde0df80be38a6e570480cc7c4d3efaa8e9380a262a16d5a410"
+    },
+    {
+      "type_name": "op3_offset_tuner_msgs/msg/JointTorqueOnOff",
+      "hash_string": "RIHS01_5790bb20f2417e40268cf2a2c202d6250420fc5a369ba4375a0f617442a34290"
+    }
+  ]
+}

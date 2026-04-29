@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs/rosidl_typesupport_introspection_c/op3_ball_detector_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h

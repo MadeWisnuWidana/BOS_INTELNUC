@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_ball_detector_msgs/rosidl_generator_c/op3_ball_detector_msgs/msg/detail/ball_detector_params__type_support.h

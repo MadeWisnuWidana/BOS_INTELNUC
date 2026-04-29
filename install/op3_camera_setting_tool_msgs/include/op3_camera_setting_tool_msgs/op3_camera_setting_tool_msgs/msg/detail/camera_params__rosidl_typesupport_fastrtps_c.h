@@ -1,0 +1,1 @@
+/home/brone-ub/brone_main_ws/build/op3_camera_setting_tool_msgs/rosidl_typesupport_fastrtps_c/op3_camera_setting_tool_msgs/msg/detail/camera_params__rosidl_typesupport_fastrtps_c.h

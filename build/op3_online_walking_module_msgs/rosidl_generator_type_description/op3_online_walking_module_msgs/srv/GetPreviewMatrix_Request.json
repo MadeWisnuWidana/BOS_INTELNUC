@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Request",
+      "fields": [
+        {
+          "name": "req",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "op3_online_walking_module_msgs/msg/PreviewRequest"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "op3_online_walking_module_msgs/msg/PreviewRequest",
+        "fields": [
+          {
+            "name": "control_cycle",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "lipm_height",
+            "type": {
+              "type_id": 11,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_online_walking_module_msgs/srv/GetPreviewMatrix_Request",
+      "hash_string": "RIHS01_75663c7d7deebdfcf748d114be91e70041d6da6363a46aacb6e8b975a35a1db2"
+    },
+    {
+      "type_name": "op3_online_walking_module_msgs/msg/PreviewRequest",
+      "hash_string": "RIHS01_cfad89b3e06303d7fd0f25592fdeb2df0f0fc4371ebe8a702eb0929acb118ca6"
+    }
+  ]
+}

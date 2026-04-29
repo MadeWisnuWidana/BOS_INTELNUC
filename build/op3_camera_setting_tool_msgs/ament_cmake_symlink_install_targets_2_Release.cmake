@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/brone-ub/brone_main_ws/build/op3_camera_setting_tool_msgs/rosidl_generator_py/op3_camera_setting_tool_msgs/op3_camera_setting_tool_msgs_s__rosidl_typesupport_c.so" "TARGETS" "op3_camera_setting_tool_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/op3_camera_setting_tool_msgs")

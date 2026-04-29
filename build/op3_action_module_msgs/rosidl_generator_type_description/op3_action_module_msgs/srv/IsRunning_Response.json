@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "op3_action_module_msgs/srv/IsRunning_Response",
+      "fields": [
+        {
+          "name": "is_running",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "op3_action_module_msgs/srv/IsRunning_Response",
+      "hash_string": "RIHS01_8cc6a89ff3a031326648c2f5b17b29b5f0d4ce3252ad88ae86fc3c6b7791b9f4"
+    }
+  ]
+}

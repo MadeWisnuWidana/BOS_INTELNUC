@@ -1,0 +1,80 @@
+[0.051s] Invoking command in '/home/brone-ub/brone_main_ws/build/robotis_math': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-Math/robotis_math -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/robotis_math
+[0.293s] -- The C compiler identification is GNU 13.3.0
+[0.418s] -- The CXX compiler identification is GNU 13.3.0
+[0.436s] -- Detecting C compiler ABI info
+[0.775s] -- Detecting C compiler ABI info - done
+[0.788s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.788s] -- Detecting C compile features
+[0.789s] -- Detecting C compile features - done
+[0.799s] -- Detecting CXX compiler ABI info
+[1.171s] -- Detecting CXX compiler ABI info - done
+[1.194s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.194s] -- Detecting CXX compile features
+[1.195s] -- Detecting CXX compile features - done
+[1.213s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.400s] -- Found Python3: /home/brone-ub/robotis_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.532s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.616s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.698s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.728s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.758s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.927s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.934s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.998s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.503s] -- Configuring done (2.4s)
+[2.550s] -- Generating done (0.0s)
+[2.567s] -- Build files have been written to: /home/brone-ub/brone_main_ws/build/robotis_math
+[2.611s] Invoked command in '/home/brone-ub/brone_main_ws/build/robotis_math' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/brone-ub/brone_main_ws/src/robotis_framework/ROBOTIS-Math/robotis_math -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/brone-ub/brone_main_ws/install/robotis_math
+[2.627s] Invoking command in '/home/brone-ub/brone_main_ws/build/robotis_math': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/robotis_math -- -j16 -l16
+[3.166s] [  9%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/minimum_jerk_trajectory_with_via_point.cpp.o[0m
+[3.167s] [ 18%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/robotis_math_base.cpp.o[0m
+[3.167s] [ 27%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/fifth_order_polynomial_trajectory.cpp.o[0m
+[3.167s] [ 36%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/robotis_trajectory_calculator.cpp.o[0m
+[3.167s] [ 45%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/simple_trapezoidal_velocity_profile.cpp.o[0m
+[3.167s] [ 54%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/minimum_jerk_trajectory.cpp.o[0m
+[3.167s] [ 63%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/robotis_linear_algebra.cpp.o[0m
+[3.167s] [ 72%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/preview_control.cpp.o[0m
+[3.167s] [ 81%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/step_data_define.cpp.o[0m
+[3.168s] [ 90%] [32mBuilding CXX object CMakeFiles/robotis_math.dir/src/bezier_curve.cpp.o[0m
+[30.341s] [100%] [32m[1mLinking CXX static library librobotis_math.a[0m
+[30.407s] [100%] Built target robotis_math
+[30.429s] Invoked command in '/home/brone-ub/brone_main_ws/build/robotis_math' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/brone-ub/brone_main_ws/build/robotis_math -- -j16 -l16
+[30.437s] Invoking command in '/home/brone-ub/brone_main_ws/build/robotis_math': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/robotis_math
+[31.372s] -- Install configuration: "Release"
+[31.373s] -- Execute custom install script
+[31.373s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/bezier_curve.h
+[31.373s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/fifth_order_polynomial_trajectory.h
+[31.373s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/minimum_jerk_trajectory.h
+[31.373s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/minimum_jerk_trajectory_with_via_point.h
+[31.374s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/preview_control.h
+[31.375s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/robotis_linear_algebra.h
+[31.375s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/robotis_math.h
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/robotis_math_base.h
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/robotis_trajectory_calculator.h
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/simple_trapezoidal_velocity_profile.h
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/include/robotis_math/step_data_define.h
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/environment/library_path.sh
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/environment/library_path.dsv
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/ament_index/resource_index/package_run_dependencies/robotis_math
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/ament_index/resource_index/parent_prefix_path/robotis_math
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/environment/ament_prefix_path.sh
+[31.376s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/environment/ament_prefix_path.dsv
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/environment/path.sh
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/environment/path.dsv
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/local_setup.bash
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/local_setup.sh
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/local_setup.zsh
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/local_setup.dsv
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/package.dsv
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/ament_index/resource_index/packages/robotis_math
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/ament_cmake_export_targets-extras.cmake
+[31.377s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.378s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.378s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/robotis_mathConfig.cmake
+[31.378s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/robotis_mathConfig-version.cmake
+[31.378s] -- Symlinking: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/package.xml
+[31.378s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_math/lib/librobotis_math.a
+[31.378s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/export_robotis_mathExport.cmake
+[31.378s] -- Installing: /home/brone-ub/brone_main_ws/install/robotis_math/share/robotis_math/cmake/export_robotis_mathExport-release.cmake
+[31.380s] Invoked command in '/home/brone-ub/brone_main_ws/build/robotis_math' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/brone-ub/robotis_ws/install/algo_gaze:/home/brone-ub/robotis_ws/install/brone_gaze:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/brone-ub/brone_main_ws/build/robotis_math
