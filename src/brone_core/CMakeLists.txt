@@ -25,6 +25,7 @@ endif()
 
 install(PROGRAMS
   scripts/state_machine_node.py
+  scripts/cli_command_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()

@@ -261,12 +261,13 @@ int main(int argc, char **argv)
 
   usleep(100 * 1000);
 
-  // go to init pose
-  std_msgs::msg::String init_msg;
-  init_msg.data = "ini_pose";
-
-  g_init_pose_pub->publish(init_msg);
-  RCLCPP_INFO(node->get_logger(), "Go to init pose");
+  // NOTE: Init pose bawaan dinonaktifkan.
+  // Init pose sekarang menggunakan Page 001 dari state_machine_node.py via action_module.
+  // std_msgs::msg::String init_msg;
+  // init_msg.data = "ini_pose";
+  // g_init_pose_pub->publish(init_msg);
+  // RCLCPP_INFO(node->get_logger(), "Go to init pose");
+  RCLCPP_INFO(node->get_logger(), "Manager ready. Waiting for state_machine_node to trigger init...");
 
   rclcpp::spin(node);
 

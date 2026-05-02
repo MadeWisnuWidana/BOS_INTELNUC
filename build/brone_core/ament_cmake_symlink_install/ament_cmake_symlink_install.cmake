@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(PROGRAMS "scripts/state_machine_node.py" "DESTINATION" "lib/brone_core")
-ament_cmake_symlink_install_programs("/home/brone-ub/brone_main_ws/src/brone_core" PROGRAMS "scripts/state_machine_node.py" "DESTINATION" "lib/brone_core")
+# install(PROGRAMS "scripts/state_machine_node.py" "scripts/cli_command_node.py" "DESTINATION" "lib/brone_core")
+ament_cmake_symlink_install_programs("/home/brone-ub/brone_main_ws/src/brone_core" PROGRAMS "scripts/state_machine_node.py" "scripts/cli_command_node.py" "DESTINATION" "lib/brone_core")
 
 # install(FILES "/home/brone-ub/brone_main_ws/build/brone_core/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/brone_core" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/brone-ub/brone_main_ws/src/brone_core" FILES "/home/brone-ub/brone_main_ws/build/brone_core/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/brone_core" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

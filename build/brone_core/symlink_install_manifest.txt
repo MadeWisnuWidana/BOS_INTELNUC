@@ -1,4 +1,5 @@
 /home/brone-ub/brone_main_ws/install/brone_core/lib/brone_core/state_machine_node.py
+/home/brone-ub/brone_main_ws/install/brone_core/lib/brone_core/cli_command_node.py
 /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/package_run_dependencies/brone_core
 /home/brone-ub/brone_main_ws/install/brone_core/share/ament_index/resource_index/parent_prefix_path/brone_core
 /home/brone-ub/brone_main_ws/install/brone_core/share/brone_core/environment/ament_prefix_path.sh
