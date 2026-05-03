@@ -2,14 +2,16 @@
 
 """
 =============================================================================
-  BRONE State Machine Node (Optimized Version)
+  BRONE State Machine Node (Optimized + MQTT Display Version)
 =============================================================================
   Node pusat pengatur status (Cerebrum) pada arsitektur BOS.
-  Mengorkestrasikan Robotis OP3 Framework, Vision (Jetson), dan Locomotion (OrangePi).
+  Mengorkestrasikan Robotis OP3 Framework, Vision (Jetson), dan Locomotion.
 =============================================================================
 """
 
 import os
+import json
+import paho.mqtt.client as mqtt
 
 # Menghapus CYCLONEDDS_URI otomatis dari proses ini
 os.environ.pop('CYCLONEDDS_URI', None)
@@ -42,6 +44,19 @@ class BroneStateMachine(Node):
         self.current_state: State = State.BOOT
         self.init_done: bool = False
 
+        # --- KONFIGURASI MQTT DISPLAY (JETSON) ---
+        # GANTI INI DENGAN IP JETSON ANDA!
+        self.JETSON_IP = "192.168.100.2" 
+        self.MQTT_TOPIC = "robot/expression"
+        
+        self.mqtt_client = mqtt.Client(callback_api_version=mqtt.CallbackAPIVersion.VERSION2)
+        try:
+            self.mqtt_client.connect(self.JETSON_IP, 1883, 60)
+            self.mqtt_client.loop_start()
+            self.get_logger().info(f'[MQTT] Terhubung ke Jetson Display di {self.JETSON_IP}')
+        except Exception as e:
+            self.get_logger().error(f'[MQTT] Gagal terhubung ke Jetson: {e}')
+
         # --- PUBLISHERS (Robotis Framework - NUC) ---
         self.module_pub = self.create_publisher(String, '/robotis/enable_ctrl_module', 10)
         self.action_pub = self.create_publisher(Int32, '/robotis/action/page_num', 10)
@@ -55,7 +70,7 @@ class BroneStateMachine(Node):
         self.status_sub = self.create_subscription(String, '/robotis/movement_done', self.movement_done_callback, 10)
 
         self.get_logger().info('='*60)
-        self.get_logger().info('  BOS: BRONE State Machine Node AKTIF')
+        self.get_logger().info('  BOS: BRONE State Machine (MQTT Ready) AKTIF')
         self.get_logger().info('  Memulai Auto-Init Sequence...')
         self.get_logger().info('='*60)
 
@@ -86,11 +101,12 @@ class BroneStateMachine(Node):
         self.action_delay_timer = self.create_timer(1.5, self._execute_initial_pose)
 
     def _execute_initial_pose(self) -> None:
-        """Menjalankan pose inisialisasi awal robot."""
+        """Menjalankan pose inisialisasi awal robot dan menyalakan wajah."""
         self.action_delay_timer.cancel()
         self.get_logger().info('[INIT] Menjalankan Init Pose...')
         
         self.play_action(self.PAGE_INIT)
+        self.set_face("happy") # Panggil wajah via MQTT
         
         self.current_state = State.INIT
         self.init_done = True
@@ -113,6 +129,15 @@ class BroneStateMachine(Node):
         self.action_pub.publish(msg)
         self.get_logger().info(f'[SYS] Menjalankan Action Page: {page_num}')
 
+    def set_face(self, expression: str) -> None:
+        """Mengirim perintah ekspresi ke Jetson via MQTT."""
+        try:
+            payload = json.dumps({"expression": expression})
+            self.mqtt_client.publish(self.MQTT_TOPIC, payload)
+            self.get_logger().info(f'[DISPLAY] Ekspresi wajah diubah ke: {expression}')
+        except Exception as e:
+            self.get_logger().warn(f'[MQTT] Gagal kirim ekspresi: {e}')
+
     # ================================================================
     #  CALLBACKS
     # ================================================================
@@ -129,25 +154,30 @@ class BroneStateMachine(Node):
             self.current_state = State.INIT
             self.set_module('action_module')
             self.play_action(self.PAGE_INIT)
+            self.set_face("happy")
 
         elif command == 'wave':
             self.current_state = State.WAVE
             self.set_module('action_module')
             self.play_action(self.PAGE_WAVE)
+            self.set_face("happier")
 
         elif command == 'vision':
             self.current_state = State.VISION_MODE
             self.set_module('head_control_module')
             self.get_logger().info('[CMD] Vision Mode: Leher siap melacak (Gaze Control).')
+            self.set_face("talking")
 
         elif command == 'follow':
             self.current_state = State.FOLLOW_MODE
             self.set_module('head_control_module')
             self.get_logger().info('[CMD] Follow Mode: Pelacakan aktif, roda omniwheel bersiap.')
+            self.set_face("talking") 
 
         elif command == 'stop':
             self.current_state = State.IDLE
             self.play_action(self.PAGE_STOP)
+            self.set_face("sad")
             
             # Hentikan juga pergerakan kaki (Kirim Twist 0.0)
             stop_cmd = Twist()
