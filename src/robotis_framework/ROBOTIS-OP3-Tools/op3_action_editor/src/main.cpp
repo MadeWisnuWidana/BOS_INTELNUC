@@ -66,6 +66,9 @@ bool turnOnDynamixelPower(rclcpp::Node::SharedPtr node, const std::string &devic
 
 int main(int argc, char **argv)
 {
+  // Menghapus CYCLONEDDS_URI otomatis dari proses ini agar tidak terjadi crash network
+  unsetenv("CYCLONEDDS_URI");
+
   rclcpp::init(argc, argv);
   auto editor = std::make_shared<robotis_op::ActionEditor>();
 

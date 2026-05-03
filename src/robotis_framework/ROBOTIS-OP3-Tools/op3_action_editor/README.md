@@ -9,10 +9,11 @@ Repositori ini berisi tool **Action Editor** untuk robot ROBOTIS OP3. Action Edi
 Pastikan workspace ROS 2 Anda telah di-*source* terlebih dahulu sebelum menjalankan *executable*.
 
 ```bash
-source ~/robotis_ws/install/setup.bash
+source /opt/ros/jazzy/setup.bash
 source ~/brone_main_ws/install/setup.bash
+unset CYCLONEDDS_URI
 
-ros2 run op3_action_editor executor.py
+ros2 run op3_action_editor action_editor
 ```
 
 > **Catatan Penting:** 

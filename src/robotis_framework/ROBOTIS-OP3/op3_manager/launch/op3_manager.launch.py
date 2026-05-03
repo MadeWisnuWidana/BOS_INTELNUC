@@ -4,6 +4,11 @@ from ament_index_python.packages import get_package_share_directory
 from launch_ros.actions import Node
 from launch.substitutions import LaunchConfiguration
 
+import os
+
+# Menghapus CYCLONEDDS_URI dari environment agar tidak terjadi crash networking (exit code -11/-6)
+os.environ.pop('CYCLONEDDS_URI', None)
+
 def generate_launch_description():
     gazebo_default = False
     gazebo_robot_name_default = 'robotis_op3'
